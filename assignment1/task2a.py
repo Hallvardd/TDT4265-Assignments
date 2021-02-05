@@ -12,8 +12,22 @@ def pre_process_images(X: np.ndarray):
     """
     assert X.shape[1] == 784,\
         f"X.shape[1]: {X.shape[1]}, should be 784"
-    # TODO implement this function (Task 2a)
+
+    # current interval
+    x_min = 0
+    x_max = 255
+    # normalization interval
+    min = -1
+    max = 1
+
+    # normalizing
+    X = ((max - min)/(x_max-x_min))*X + min
+
+    #bias trick after normalization
+    X = np.insert(X, X.shape[1], 1, axis=1)
+
     return X
+
 
 
 def cross_entropy_loss(targets: np.ndarray, outputs: np.ndarray) -> float:
@@ -24,17 +38,19 @@ def cross_entropy_loss(targets: np.ndarray, outputs: np.ndarray) -> float:
     Returns:
         Cross entropy error (float)
     """
-    # TODO implement this function (Task 2a)
     assert targets.shape == outputs.shape,\
         f"Targets shape: {targets.shape}, outputs: {outputs.shape}"
-    return 0
+
+    x_loss = sum(-(targets*(np.log(outputs)) + (1 - targets)*(np.log(1 - outputs))))/outputs.shape[0]
+
+    return x_loss
 
 
 class BinaryModel:
 
     def __init__(self):
         # Define number of input nodes
-        self.I = None
+        self.I = 785
         self.w = np.zeros((self.I, 1))
         self.grad = None
 
@@ -45,8 +61,12 @@ class BinaryModel:
         Returns:
             y: output of model with shape [batch size, 1]
         """
-        # TODO implement this function (Task 2a)
-        return None
+        # calculating z
+        z = np.dot(X, self.w)
+        # applying the sigmoid function
+        y = 1.0/(1.0 + np.exp(-z))
+
+        return y
 
     def backward(self, X: np.ndarray, outputs: np.ndarray, targets: np.ndarray) -> None:
         """
@@ -56,15 +76,20 @@ class BinaryModel:
             outputs: outputs of model of shape: [batch size, 1]
             targets: labels/targets of each image of shape: [batch size, 1]
         """
-        # TODO implement this function (Task 2a)
         assert targets.shape == outputs.shape,\
             f"Output shape: {outputs.shape}, targets: {targets.shape}"
         self.grad = np.zeros_like(self.w)
         assert self.grad.shape == self.w.shape,\
             f"Grad shape: {self.grad.shape}, w: {self.w.shape}"
 
+        self.grad = - X.T.dot(targets - outputs)/outputs.shape[0]
+
     def zero_grad(self) -> None:
         self.grad = None
+
+    def update_weights(self, learning_rate):
+        self.w -= learning_rate*self.grad
+
 
 
 def gradient_approximation_test(model: BinaryModel, X: np.ndarray, Y: np.ndarray):

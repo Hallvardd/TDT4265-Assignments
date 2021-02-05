@@ -91,51 +91,13 @@ if __name__ == "__main__":
     # ANY PARTS OF THE CODE BELOW THIS CAN BE CHANGED.
 
     # Intialize model
-    model = SoftmaxModel(l2_reg_lambda)
-    # Train model
+
+    model = SoftmaxModel(l2_reg_lambda=1)
     trainer = SoftmaxTrainer(
         model, learning_rate, batch_size, shuffle_dataset,
         X_train, Y_train, X_val, Y_val,
     )
     train_history, val_history = trainer.train(num_epochs)
-
-    print("Final Train Cross Entropy Loss:",
-          cross_entropy_loss(Y_train, model.forward(X_train)))
-    print("Final Validation Cross Entropy Loss:",
-          cross_entropy_loss(Y_val, model.forward(X_val)))
-    print("Final Train accuracy:", calculate_accuracy(X_train, Y_train, model))
-    print("Final Validation accuracy:", calculate_accuracy(X_val, Y_val, model))
-
-    plt.ylim([0.2, .6])
-    utils.plot_loss(train_history["loss"],
-                    "Training Loss", npoints_to_average=10)
-    utils.plot_loss(val_history["loss"], "Validation Loss")
-    plt.legend()
-    plt.xlabel("Number of Training Steps")
-    plt.ylabel("Cross Entropy Loss - Average")
-    plt.savefig("task3b_softmax_train_loss.png")
-    plt.show()
-
-    # Plot accuracy
-    plt.ylim([0.89, .93])
-    utils.plot_loss(train_history["accuracy"], "Training Accuracy")
-    utils.plot_loss(val_history["accuracy"], "Validation Accuracy")
-    plt.xlabel("Number of Training Steps")
-    plt.ylabel("Accuracy")
-    plt.legend()
-    plt.savefig("task3b_softmax_train_accuracy.png")
-    plt.show()
-
-    # Train a model with L2 regularization (task 4b)
-
-    model.zero_grad()
-    model1 = SoftmaxModel(l2_reg_lambda=1.0)
-    model1.zero_grad()
-    trainer = SoftmaxTrainer(
-        model1, learning_rate, batch_size, shuffle_dataset,
-        X_train, Y_train, X_val, Y_val,
-    )
-    train_history_reg01, val_history_reg01 = trainer.train(num_epochs)
     # You can finish the rest of task 4 below this point.
 
     # Plotting of softmax weights (Task 4b)
@@ -148,3 +110,34 @@ if __name__ == "__main__":
     # Task 4d - Plotting of the l2 norm for each weight
 
     plt.savefig("task4d_l2_reg_norms.png")
+
+    print("Final Train Cross Entropy Loss:",
+          cross_entropy_loss(Y_train, model.forward(X_train)))
+    print("Final Validation Cross Entropy Loss:",
+          cross_entropy_loss(Y_val, model.forward(X_val)))
+    print("Final Train accuracy:", calculate_accuracy(X_train, Y_train, model))
+    print("Final Validation accuracy:", calculate_accuracy(X_val, Y_val, model))
+
+    #plt.ylim([0.2, .6])
+    #utils.plot_loss(train_history["loss"],
+    #               "Training Loss", npoints_to_average=10)
+    #utils.plot_loss(val_history["loss"], "Validation Loss")
+    #plt.legend()
+    #plt.xlabel("Number of Training Steps")
+    #plt.ylabel("Cross Entropy Loss - Average")
+    #plt.savefig("task3b_softmax_train_loss.png")
+    #plt.show()
+
+    # Plot accuracy
+    #plt.ylim([0.89, .93])
+    #utils.plot_loss(train_history["accuracy"], "Training Accuracy")
+    #utils.plot_loss(val_history["accuracy"], "Validation Accuracy")
+    #plt.xlabel("Number of Training Steps")
+    #plt.ylabel("Accuracy")
+    #plt.legend()
+    #plt.savefig("task3b_softmax_train_accuracy.png")
+    #plt.show()
+
+    # Train a model with L2 regularization (task 4b)
+
+
