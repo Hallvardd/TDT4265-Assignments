@@ -45,9 +45,9 @@ class SoftmaxTrainer(BaseTrainer):
             loss value (float) on batch
         """
 
-        logits = model.forward(X_batch)
-        model.backward(X_batch, logits, Y_batch)
-        model.update_weights(self.learning_rate)
+        logits = self.model.forward(X_batch)
+        self.model.backward(X_batch, logits, Y_batch)
+        self.model.update_weights(self.learning_rate)
         loss = cross_entropy_loss(Y_batch, logits)
 
         return loss
@@ -80,6 +80,7 @@ if __name__ == "__main__":
     batch_size = 128
     l2_reg_lambda = 0
     shuffle_dataset = True
+    early_stopping = True
 
     # Load dataset
     X_train, Y_train, X_val, Y_val = utils.load_full_mnist()
@@ -95,7 +96,7 @@ if __name__ == "__main__":
     # Train model
     trainer = SoftmaxTrainer(
         model, learning_rate, batch_size, shuffle_dataset,
-        X_train, Y_train, X_val, Y_val,
+        early_stopping, X_train, Y_train, X_val, Y_val,
     )
     train_history, val_history = trainer.train(num_epochs)
 
@@ -125,26 +126,3 @@ if __name__ == "__main__":
     plt.legend()
     plt.savefig("task3b_softmax_train_accuracy.png")
     plt.show()
-
-    # Train a model with L2 regularization (task 4b)
-
-    model.zero_grad()
-    model1 = SoftmaxModel(l2_reg_lambda=1.0)
-    model1.zero_grad()
-    trainer = SoftmaxTrainer(
-        model1, learning_rate, batch_size, shuffle_dataset,
-        X_train, Y_train, X_val, Y_val,
-    )
-    train_history_reg01, val_history_reg01 = trainer.train(num_epochs)
-    # You can finish the rest of task 4 below this point.
-
-    # Plotting of softmax weights (Task 4b)
-    #plt.imsave("task4b_softmax_weight.png", weight, cmap="gray")
-
-    # Plotting of accuracy for difference values of lambdas (task 4c)
-    l2_lambdas = [1, .1, .01, .001]
-    plt.savefig("task4c_l2_reg_accuracy.png")
-
-    # Task 4d - Plotting of the l2 norm for each weight
-
-    plt.savefig("task4d_l2_reg_norms.png")

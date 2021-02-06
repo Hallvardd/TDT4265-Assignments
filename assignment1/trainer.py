@@ -12,6 +12,7 @@ class BaseTrainer:
             learning_rate: float,
             batch_size: int,
             shuffle_dataset: bool,
+            early_stopping: bool,
             X_train: np.ndarray, Y_train: np.ndarray,
             X_val: np.ndarray, Y_val: np.ndarray,) -> None:
         """
@@ -25,6 +26,7 @@ class BaseTrainer:
         self.batch_size = batch_size
         self.model = model
         self.shuffle_dataset = shuffle_dataset
+        self.early_stopping = early_stopping
 
     def validation_step(self):
         """
@@ -75,6 +77,8 @@ class BaseTrainer:
         global_step = 0
         dummy_counter = 0
         lowest_loss = np.inf
+        # value to track the progress
+        last_epoch = -1
         for epoch in range(num_epochs):
             train_loader = utils.batch_loader(
                 self.X_train, self.Y_train, self.batch_size, shuffle=self.shuffle_dataset)
@@ -90,10 +94,14 @@ class BaseTrainer:
                     val_history["loss"][global_step] = val_loss
                     val_history["accuracy"][global_step] = accuracy_val
 
-                    # You can access the validation loss in val_history["loss"]
-                    if(lowest_loss < val_history["loss"][global_step]):
-                        dummy_counter += 1
+                    # Keeping track of the progress of the training
+                    if (last_epoch != epoch):
                         print(epoch)
+                        last_epoch = epoch
+
+                    # You can access the validation loss in val_history["loss"]
+                    if(self.early_stopping and (lowest_loss < val_history["loss"][global_step])):
+                        dummy_counter += 1
                         if(dummy_counter>=10):
                             print(f'Early stopping kicked in at:{epoch}, with loss value: {val_history["loss"][global_step]}, lowest value = {lowest_loss}')
                             return train_history, val_history
@@ -103,5 +111,4 @@ class BaseTrainer:
 
                 global_step += 1
 
-        print(lowest_loss)
         return train_history, val_history

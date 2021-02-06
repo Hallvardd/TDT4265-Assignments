@@ -35,9 +35,9 @@ class LogisticTrainer(BaseTrainer):
             loss value (float) on batch
         """
 
-        logits = model.forward(X_batch)
-        model.backward(X_batch, logits, Y_batch)
-        model.update_weights(self.learning_rate)
+        logits = self.model.forward(X_batch)
+        self.model.backward(X_batch, logits, Y_batch)
+        self.model.update_weights(self.learning_rate)
         loss = cross_entropy_loss(Y_batch, logits)
 
         return loss
@@ -69,6 +69,7 @@ if __name__ == "__main__":
     learning_rate = 0.05
     batch_size = 128
     shuffle_dataset = False
+    early_stopping = True
 
     # Load dataset
     category1, category2 = 2, 3
@@ -85,7 +86,7 @@ if __name__ == "__main__":
     # Train model
     trainer = LogisticTrainer(
         model, learning_rate, batch_size, shuffle_dataset,
-        X_train, Y_train, X_val, Y_val,
+        early_stopping, X_train, Y_train, X_val, Y_val,
     )
     train_history, val_history = trainer.train(num_epochs)
 
@@ -126,7 +127,7 @@ if __name__ == "__main__":
     # Train model
     trainer = LogisticTrainer(
         model, learning_rate, batch_size, shuffle_dataset,
-        X_train, Y_train, X_val, Y_val,
+        early_stopping, X_train, Y_train, X_val, Y_val,
     )
     train_history_shuffle, val_history_shuffle = trainer.train(num_epochs)
 
