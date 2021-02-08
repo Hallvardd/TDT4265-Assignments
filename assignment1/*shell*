@@ -1,0 +1,10510 @@
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Downloading train-images-idx3-ubyte.gz...
+Downloading t10k-images-idx3-ubyte.gz...
+Downloading train-labels-idx1-ubyte.gz...
+Downloading t10k-labels-idx1-ubyte.gz...
+(47040000,)
+(7840000,)
+(60000,)
+(10000,)
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.3166367574087503, lowest value = 1.2961057654450714
+Final Train Cross Entropy Loss: 1.3278612774741647
+Final Validation Cross Entropy Loss: 1.3166367574087503
+Final Train accuracy: 0.72745
+Final Validation accuracy: 0.7422
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.3166367574087503, lowest value = 1.2961057654450714
+2.302585092994046
+Final Train Cross Entropy Loss: 1.315318630338547
+Final Validation Cross Entropy Loss: 1.30155321121281
+Final Train accuracy: 0.7695
+Final Validation accuracy: 0.7836
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.3166367574087503, lowest value = 1.2961057654450714
+2.302585092994046
+Final Train Cross Entropy Loss: 1.315318630338547
+Final Validation Cross Entropy Loss: 1.30155321121281
+Final Train accuracy: 0.7695
+Final Validation accuracy: 0.7836
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.3166367574087503, lowest value = 1.2961057654450714
+2.302585092994046
+Final Train Cross Entropy Loss: 1.315318630338547
+Final Validation Cross Entropy Loss: 1.30155321121281
+Final Train accuracy: 0.7695
+Final Validation accuracy: 0.7836
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.3166367574087503, lowest value = 1.2961057654450714
+Final Train Cross Entropy Loss: 1.3278612774741647
+Final Validation Cross Entropy Loss: 1.3166367574087503
+Final Train accuracy: 0.72745
+Final Validation accuracy: 0.7422
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+2.302585092994046
+Final Train Cross Entropy Loss: 2.302585092994046
+Final Validation Cross Entropy Loss: 2.302585092994046
+Final Train accuracy: 0.0997
+Final Validation accuracy: 0.098
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+{'loss': {}, 'accuracy': {}}
+{'loss': {}, 'accuracy': {}}
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.3166367574087503, lowest value = 1.2961057654450714
+Final Train Cross Entropy Loss: 1.3278612774741647
+Final Validation Cross Entropy Loss: 1.3166367574087503
+Final Train accuracy: 0.72745
+Final Validation accuracy: 0.7422
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+{'loss': {}, 'accuracy': {}}
+{'loss': {}, 'accuracy': {}}
+2.302585092994046
+Final Train Cross Entropy Loss: 2.302585092994046
+Final Validation Cross Entropy Loss: 2.302585092994046
+Final Train accuracy: 0.0997
+Final Validation accuracy: 0.098
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+{'loss': {}, 'accuracy': {}}
+{'loss': {}, 'accuracy': {}}
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.3166367574087503, lowest value = 1.2961057654450714
+Final Train Cross Entropy Loss: 1.3278612774741647
+Final Validation Cross Entropy Loss: 1.3166367574087503
+Final Train accuracy: 0.72745
+Final Validation accuracy: 0.7422
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+{'loss': {}, 'accuracy': {}}
+{'loss': {}, 'accuracy': {}}
+Traceback (most recent call last):
+  File "task4.py", line 167, in <module>
+    train_history, val_history = trainer.train(num_epochs)
+  File "/home/hallvard/tdt4265/TDT4265-TempCode/assignment1/trainer.py", line 85, in train
+    loss = self.train_step(X_batch, Y_batch)
+  File "task4.py", line 48, in train_step
+    logits = model.forward(X_batch)
+AttributeError: 'NoneType' object has no attribute 'forward'
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+{'loss': {}, 'accuracy': {}}
+{'loss': {}, 'accuracy': {}}
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.3166367574087503, lowest value = 1.2961057654450714
+Final Train Cross Entropy Loss: 1.3278612774741647
+Final Validation Cross Entropy Loss: 1.3166367574087503
+Final Train accuracy: 0.72745
+Final Validation accuracy: 0.7422
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+{'loss': {}, 'accuracy': {}}
+{'loss': {}, 'accuracy': {}}
+1
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.3071309268553042, lowest value = 1.2969654307688367
+Final Train Cross Entropy Loss: 1.3177876196772225
+Final Validation Cross Entropy Loss: 1.3071309268553042
+Final Train accuracy: 0.76065
+Final Validation accuracy: 0.7674
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+{'loss': {}, 'accuracy': {}}
+{'loss': {}, 'accuracy': {}}
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+0.2975555947776042
+{'loss': {}, 'accuracy': {}}
+{'loss': {}, 'accuracy': {}}
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Traceback (most recent call last):
+  File "task4.py", line 117, in <module>
+    weight_one.reshape(28,28, axis=1)
+TypeError: 'axis' is an invalid keyword argument for this function
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Traceback (most recent call last):
+  File "task4.py", line 117, in <module>
+    weight_one.reshape((weight_one.shape[0], 28, 28))
+ValueError: cannot reshape array of size 7850 into shape (10,28,28)
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Traceback (most recent call last):
+  File "task4.py", line 151, in <module>
+    cross_entropy_loss(Y_train, model.forward(X_train)))
+NameError: name 'model' is not defined
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.797
+Final Validation accuracy: 0.8097
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Traceback (most recent call last):
+  File "task4.py", line 124, in <module>
+    plt.imsave("task4b_softmax_weight.png", weight_one, cmap="gray")
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/pyplot.py", line 2259, in imsave
+    return _imsave(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/image.py", line 1369, in imsave
+    image.set_data(arr)
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/image.py", line 622, in set_data
+    raise TypeError("Invalid dimensions for image data")
+TypeError: Invalid dimensions for image data
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.797
+Final Validation accuracy: 0.8097
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Traceback (most recent call last):
+  File "task4.py", line 124, in <module>
+    plt.imsave("task4b_softmax_weight.png", weight_one[0], cmap="gray")
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/pyplot.py", line 2259, in imsave
+    return _imsave(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/image.py", line 1369, in imsave
+    image.set_data(arr)
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/image.py", line 622, in set_data
+    raise TypeError("Invalid dimensions for image data")
+TypeError: Invalid dimensions for image data
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Traceback (most recent call last):
+  File "task4.py", line 125, in <module>
+    plt.imsave("task4b_softmax_weight.png", weight_one[0], cmap="gray")
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/pyplot.py", line 2259, in imsave
+    return _imsave(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/image.py", line 1369, in imsave
+    image.set_data(arr)
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/image.py", line 622, in set_data
+    raise TypeError("Invalid dimensions for image data")
+TypeError: Invalid dimensions for image data
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Traceback (most recent call last):
+  File "task4.py", line 125, in <module>
+    plt.imsave("task4b_softmax_weight.png", weight_one[0], cmap="gray")
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/pyplot.py", line 2259, in imsave
+    return _imsave(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/image.py", line 1369, in imsave
+    image.set_data(arr)
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/image.py", line 622, in set_data
+    raise TypeError("Invalid dimensions for image data")
+TypeError: Invalid dimensions for image data
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.797
+Final Validation accuracy: 0.8097
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.797
+Final Validation accuracy: 0.8097
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.797
+Final Validation accuracy: 0.8097
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Traceback (most recent call last):
+  File "task4.py", line 124, in <module>
+    plt.imsave("task4b_softmax_weight.png", weight_one, cmap="gray")
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/pyplot.py", line 2259, in imsave
+    return _imsave(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/image.py", line 1369, in imsave
+    image.set_data(arr)
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/image.py", line 622, in set_data
+    raise TypeError("Invalid dimensions for image data")
+TypeError: Invalid dimensions for image data
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Traceback (most recent call last):
+  File "task4.py", line 122, in <module>
+    weight_two = weight_two.reshape((weight_two.shape[0], im_w, im_h))
+ValueError: cannot reshape array of size 7840 into shape (7840,28,28)
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.797
+Final Validation accuracy: 0.8097
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+  File "task4.py", line 118
+    weight_one = model_one.w.T[:, :-1].reshape((-, im_h, im_w))
+                                                 ^
+SyntaxError: invalid syntax
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Traceback (most recent call last):
+  File "task4.py", line 124, in <module>
+    weights = np.vstack(weight_one, weight_two)
+TypeError: vstack() takes 1 positional argument but 2 were given
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.797
+Final Validation accuracy: 0.8097
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+3
+Early stopping kicked in at:3, with loss value: 1.30151894097698, lowest value = 1.3000810657915884
+4
+Early stopping kicked in at:4, with loss value: 1.3029129828948134, lowest value = 1.3000810657915884
+4
+Early stopping kicked in at:4, with loss value: 1.309797132846297, lowest value = 1.3000810657915884
+4
+Early stopping kicked in at:4, with loss value: 1.3083009999394424, lowest value = 1.3000810657915884
+4
+Early stopping kicked in at:4, with loss value: 1.3022636482716319, lowest value = 1.3000810657915884
+4
+Early stopping kicked in at:4, with loss value: 1.309430693671972, lowest value = 1.3000810657915884
+5
+Early stopping kicked in at:5, with loss value: 1.305743633723101, lowest value = 1.3000810657915884
+5
+Early stopping kicked in at:5, with loss value: 1.3107814641771502, lowest value = 1.3000810657915884
+5
+Early stopping kicked in at:5, with loss value: 1.3005136192011917, lowest value = 1.3000810657915884
+5
+Early stopping kicked in at:5, with loss value: 1.3063683732787974, lowest value = 1.3000810657915884
+5
+Early stopping kicked in at:5, with loss value: 1.3051173571157821, lowest value = 1.3000810657915884
+6
+6
+6
+6
+7
+7
+7
+7
+7
+8
+Early stopping kicked in at:8, with loss value: 1.297420751089229, lowest value = 1.2970359563451592
+8
+Early stopping kicked in at:8, with loss value: 1.3215302075530249, lowest value = 1.2970359563451592
+8
+Early stopping kicked in at:8, with loss value: 1.3092554144753852, lowest value = 1.2970359563451592
+8
+Early stopping kicked in at:8, with loss value: 1.3137367034880154, lowest value = 1.2970359563451592
+8
+Early stopping kicked in at:8, with loss value: 1.30319435305911, lowest value = 1.2970359563451592
+9
+Early stopping kicked in at:9, with loss value: 1.3112557745845772, lowest value = 1.2970359563451592
+9
+Early stopping kicked in at:9, with loss value: 1.3091061563176525, lowest value = 1.2970359563451592
+9
+Early stopping kicked in at:9, with loss value: 1.3076907397875068, lowest value = 1.2970359563451592
+9
+Early stopping kicked in at:9, with loss value: 1.300508751628916, lowest value = 1.2970359563451592
+9
+Early stopping kicked in at:9, with loss value: 1.2974692167292836, lowest value = 1.2970359563451592
+10
+Early stopping kicked in at:10, with loss value: 1.3005470834944775, lowest value = 1.2970359563451592
+10
+Early stopping kicked in at:10, with loss value: 1.304743858337597, lowest value = 1.2970359563451592
+10
+Early stopping kicked in at:10, with loss value: 1.3006292793980812, lowest value = 1.2970359563451592
+10
+Early stopping kicked in at:10, with loss value: 1.3011062024900462, lowest value = 1.2970359563451592
+10
+Early stopping kicked in at:10, with loss value: 1.3054511069507708, lowest value = 1.2970359563451592
+11
+Early stopping kicked in at:11, with loss value: 1.3031511768201423, lowest value = 1.2970359563451592
+11
+Early stopping kicked in at:11, with loss value: 1.300032847156137, lowest value = 1.2970359563451592
+11
+Early stopping kicked in at:11, with loss value: 1.3081488515790578, lowest value = 1.2970359563451592
+11
+Early stopping kicked in at:11, with loss value: 1.3106395410998435, lowest value = 1.2970359563451592
+11
+Early stopping kicked in at:11, with loss value: 1.3049738478537314, lowest value = 1.2970359563451592
+12
+Early stopping kicked in at:12, with loss value: 1.3030730600322535, lowest value = 1.2970359563451592
+12
+Early stopping kicked in at:12, with loss value: 1.305746540782294, lowest value = 1.2970359563451592
+12
+Early stopping kicked in at:12, with loss value: 1.2983276098314198, lowest value = 1.2970359563451592
+12
+Early stopping kicked in at:12, with loss value: 1.3037123106815742, lowest value = 1.2970359563451592
+12
+Early stopping kicked in at:12, with loss value: 1.3070770309550843, lowest value = 1.2970359563451592
+13
+Early stopping kicked in at:13, with loss value: 1.3030251424028332, lowest value = 1.2970359563451592
+13
+Early stopping kicked in at:13, with loss value: 1.3065518582803766, lowest value = 1.2970359563451592
+13
+Early stopping kicked in at:13, with loss value: 1.3044179184649924, lowest value = 1.2970359563451592
+13
+Early stopping kicked in at:13, with loss value: 1.3112838176058832, lowest value = 1.2970359563451592
+13
+Early stopping kicked in at:13, with loss value: 1.2990465582492399, lowest value = 1.2970359563451592
+14
+Early stopping kicked in at:14, with loss value: 1.305863197332372, lowest value = 1.2970359563451592
+14
+Early stopping kicked in at:14, with loss value: 1.3039152504669065, lowest value = 1.2970359563451592
+14
+Early stopping kicked in at:14, with loss value: 1.3052743971902092, lowest value = 1.2970359563451592
+14
+Early stopping kicked in at:14, with loss value: 1.3166118515235634, lowest value = 1.2970359563451592
+14
+Early stopping kicked in at:14, with loss value: 1.3117905346490562, lowest value = 1.2970359563451592
+15
+Early stopping kicked in at:15, with loss value: 1.308837128637747, lowest value = 1.2970359563451592
+15
+Early stopping kicked in at:15, with loss value: 1.30274427342769, lowest value = 1.2970359563451592
+15
+Early stopping kicked in at:15, with loss value: 1.3092057813598554, lowest value = 1.2970359563451592
+15
+Early stopping kicked in at:15, with loss value: 1.3156992866149186, lowest value = 1.2970359563451592
+15
+Early stopping kicked in at:15, with loss value: 1.3153234828899751, lowest value = 1.2970359563451592
+16
+Early stopping kicked in at:16, with loss value: 1.308858513774825, lowest value = 1.2970359563451592
+16
+Early stopping kicked in at:16, with loss value: 1.307157603462408, lowest value = 1.2970359563451592
+16
+Early stopping kicked in at:16, with loss value: 1.3024794518584506, lowest value = 1.2970359563451592
+16
+Early stopping kicked in at:16, with loss value: 1.304052576780044, lowest value = 1.2970359563451592
+16
+Early stopping kicked in at:16, with loss value: 1.3067831420148546, lowest value = 1.2970359563451592
+17
+Early stopping kicked in at:17, with loss value: 1.3023228759222496, lowest value = 1.2970359563451592
+17
+Early stopping kicked in at:17, with loss value: 1.3026204573440727, lowest value = 1.2970359563451592
+17
+Early stopping kicked in at:17, with loss value: 1.3068919648923114, lowest value = 1.2970359563451592
+17
+Early stopping kicked in at:17, with loss value: 1.3048249135231036, lowest value = 1.2970359563451592
+17
+Early stopping kicked in at:17, with loss value: 1.2982526026328995, lowest value = 1.2970359563451592
+18
+Early stopping kicked in at:18, with loss value: 1.3178804095884178, lowest value = 1.2970359563451592
+18
+Early stopping kicked in at:18, with loss value: 1.3025716435711723, lowest value = 1.2970359563451592
+18
+Early stopping kicked in at:18, with loss value: 1.3110267199965624, lowest value = 1.2970359563451592
+18
+Early stopping kicked in at:18, with loss value: 1.3015801189047929, lowest value = 1.2970359563451592
+18
+Early stopping kicked in at:18, with loss value: 1.3075943216479782, lowest value = 1.2970359563451592
+19
+Early stopping kicked in at:19, with loss value: 1.3056321942352715, lowest value = 1.2970359563451592
+19
+Early stopping kicked in at:19, with loss value: 1.3163432103431227, lowest value = 1.2970359563451592
+19
+Early stopping kicked in at:19, with loss value: 1.3061792325191381, lowest value = 1.2970359563451592
+19
+Early stopping kicked in at:19, with loss value: 1.302774010548702, lowest value = 1.2970359563451592
+19
+Early stopping kicked in at:19, with loss value: 1.3011493903219093, lowest value = 1.2970359563451592
+20
+Early stopping kicked in at:20, with loss value: 1.3005335338815343, lowest value = 1.2970359563451592
+20
+Early stopping kicked in at:20, with loss value: 1.302793935454199, lowest value = 1.2970359563451592
+20
+Early stopping kicked in at:20, with loss value: 1.3109708567042861, lowest value = 1.2970359563451592
+20
+Early stopping kicked in at:20, with loss value: 1.3003481768960723, lowest value = 1.2970359563451592
+20
+Early stopping kicked in at:20, with loss value: 1.2983540947666585, lowest value = 1.2970359563451592
+21
+Early stopping kicked in at:21, with loss value: 1.3037569916072531, lowest value = 1.2970359563451592
+21
+Early stopping kicked in at:21, with loss value: 1.3101053430635687, lowest value = 1.2970359563451592
+21
+Early stopping kicked in at:21, with loss value: 1.3050938278750335, lowest value = 1.2970359563451592
+21
+Early stopping kicked in at:21, with loss value: 1.303105715141735, lowest value = 1.2970359563451592
+21
+Early stopping kicked in at:21, with loss value: 1.3091690930680822, lowest value = 1.2970359563451592
+22
+Early stopping kicked in at:22, with loss value: 1.3062983154891692, lowest value = 1.2970359563451592
+22
+Early stopping kicked in at:22, with loss value: 1.3236339584072465, lowest value = 1.2970359563451592
+22
+Early stopping kicked in at:22, with loss value: 1.3122763667380895, lowest value = 1.2970359563451592
+22
+Early stopping kicked in at:22, with loss value: 1.3050120742338882, lowest value = 1.2970359563451592
+22
+Early stopping kicked in at:22, with loss value: 1.2988961730498736, lowest value = 1.2970359563451592
+23
+Early stopping kicked in at:23, with loss value: 1.3007570240358959, lowest value = 1.2970359563451592
+23
+Early stopping kicked in at:23, with loss value: 1.3032952788709364, lowest value = 1.2970359563451592
+23
+Early stopping kicked in at:23, with loss value: 1.303403164313397, lowest value = 1.2970359563451592
+23
+Early stopping kicked in at:23, with loss value: 1.3034277362932645, lowest value = 1.2970359563451592
+23
+Early stopping kicked in at:23, with loss value: 1.305239187303789, lowest value = 1.2970359563451592
+24
+Early stopping kicked in at:24, with loss value: 1.301343482234469, lowest value = 1.2970359563451592
+24
+Early stopping kicked in at:24, with loss value: 1.306044533855463, lowest value = 1.2970359563451592
+24
+Early stopping kicked in at:24, with loss value: 1.3035615367676092, lowest value = 1.2970359563451592
+24
+Early stopping kicked in at:24, with loss value: 1.305136480969571, lowest value = 1.2970359563451592
+24
+Early stopping kicked in at:24, with loss value: 1.3039537478395244, lowest value = 1.2970359563451592
+25
+Early stopping kicked in at:25, with loss value: 1.302776884726283, lowest value = 1.2970359563451592
+25
+Early stopping kicked in at:25, with loss value: 1.2975362439331644, lowest value = 1.2970359563451592
+25
+Early stopping kicked in at:25, with loss value: 1.3078684154218636, lowest value = 1.2970359563451592
+25
+Early stopping kicked in at:25, with loss value: 1.3053422532653693, lowest value = 1.2970359563451592
+25
+Early stopping kicked in at:25, with loss value: 1.311598692164026, lowest value = 1.2970359563451592
+26
+Early stopping kicked in at:26, with loss value: 1.3040972313271049, lowest value = 1.2970359563451592
+26
+Early stopping kicked in at:26, with loss value: 1.3044457825376228, lowest value = 1.2970359563451592
+26
+Early stopping kicked in at:26, with loss value: 1.304326261144632, lowest value = 1.2970359563451592
+26
+Early stopping kicked in at:26, with loss value: 1.3022649178821268, lowest value = 1.2970359563451592
+26
+Early stopping kicked in at:26, with loss value: 1.301368357316443, lowest value = 1.2970359563451592
+27
+Early stopping kicked in at:27, with loss value: 1.3106250670149155, lowest value = 1.2970359563451592
+27
+Early stopping kicked in at:27, with loss value: 1.3020453566407475, lowest value = 1.2970359563451592
+27
+Early stopping kicked in at:27, with loss value: 1.3123276820910208, lowest value = 1.2970359563451592
+27
+Early stopping kicked in at:27, with loss value: 1.3044672849248355, lowest value = 1.2970359563451592
+27
+Early stopping kicked in at:27, with loss value: 1.303223765774534, lowest value = 1.2970359563451592
+28
+Early stopping kicked in at:28, with loss value: 1.3074494652428175, lowest value = 1.2970359563451592
+28
+Early stopping kicked in at:28, with loss value: 1.3095527732041392, lowest value = 1.2970359563451592
+28
+Early stopping kicked in at:28, with loss value: 1.3172187650932417, lowest value = 1.2970359563451592
+28
+Early stopping kicked in at:28, with loss value: 1.306322777295498, lowest value = 1.2970359563451592
+28
+Early stopping kicked in at:28, with loss value: 1.3107517124315657, lowest value = 1.2970359563451592
+29
+29
+29
+29
+30
+30
+30
+30
+30
+31
+Early stopping kicked in at:31, with loss value: 1.3063131729646664, lowest value = 1.2969077928137411
+31
+Early stopping kicked in at:31, with loss value: 1.2990146921009627, lowest value = 1.2969077928137411
+31
+Early stopping kicked in at:31, with loss value: 1.309155650019586, lowest value = 1.2969077928137411
+31
+Early stopping kicked in at:31, with loss value: 1.3022808922109592, lowest value = 1.2969077928137411
+31
+Early stopping kicked in at:31, with loss value: 1.3073099616002548, lowest value = 1.2969077928137411
+31
+Early stopping kicked in at:31, with loss value: 1.3115407306826443, lowest value = 1.2969077928137411
+32
+Early stopping kicked in at:32, with loss value: 1.3060480250437305, lowest value = 1.2969077928137411
+32
+Early stopping kicked in at:32, with loss value: 1.3087145321109286, lowest value = 1.2969077928137411
+32
+Early stopping kicked in at:32, with loss value: 1.2989738362006142, lowest value = 1.2969077928137411
+32
+Early stopping kicked in at:32, with loss value: 1.3043237687836262, lowest value = 1.2969077928137411
+32
+Early stopping kicked in at:32, with loss value: 1.3098460549441207, lowest value = 1.2969077928137411
+33
+Early stopping kicked in at:33, with loss value: 1.3047130539839389, lowest value = 1.2969077928137411
+33
+Early stopping kicked in at:33, with loss value: 1.3036100689222152, lowest value = 1.2969077928137411
+33
+Early stopping kicked in at:33, with loss value: 1.3132389203431913, lowest value = 1.2969077928137411
+33
+Early stopping kicked in at:33, with loss value: 1.3057581768516735, lowest value = 1.2969077928137411
+33
+Early stopping kicked in at:33, with loss value: 1.3128739237637337, lowest value = 1.2969077928137411
+34
+Early stopping kicked in at:34, with loss value: 1.3140325282113479, lowest value = 1.2969077928137411
+34
+Early stopping kicked in at:34, with loss value: 1.3013593084021369, lowest value = 1.2969077928137411
+34
+Early stopping kicked in at:34, with loss value: 1.3181861847078389, lowest value = 1.2969077928137411
+34
+Early stopping kicked in at:34, with loss value: 1.307847182991484, lowest value = 1.2969077928137411
+34
+Early stopping kicked in at:34, with loss value: 1.3099132905622668, lowest value = 1.2969077928137411
+35
+Early stopping kicked in at:35, with loss value: 1.3011794035374058, lowest value = 1.2969077928137411
+35
+Early stopping kicked in at:35, with loss value: 1.3116481828217785, lowest value = 1.2969077928137411
+35
+Early stopping kicked in at:35, with loss value: 1.3011759184900367, lowest value = 1.2969077928137411
+35
+Early stopping kicked in at:35, with loss value: 1.2992208512341843, lowest value = 1.2969077928137411
+35
+Early stopping kicked in at:35, with loss value: 1.3034968397584736, lowest value = 1.2969077928137411
+36
+Early stopping kicked in at:36, with loss value: 1.3088817144428475, lowest value = 1.2969077928137411
+36
+Early stopping kicked in at:36, with loss value: 1.302893593066036, lowest value = 1.2969077928137411
+36
+Early stopping kicked in at:36, with loss value: 1.3057509226616242, lowest value = 1.2969077928137411
+36
+Early stopping kicked in at:36, with loss value: 1.3044905904839001, lowest value = 1.2969077928137411
+36
+Early stopping kicked in at:36, with loss value: 1.2995906797306407, lowest value = 1.2969077928137411
+37
+Early stopping kicked in at:37, with loss value: 1.3079662670214922, lowest value = 1.2969077928137411
+37
+Early stopping kicked in at:37, with loss value: 1.3010106339923622, lowest value = 1.2969077928137411
+37
+Early stopping kicked in at:37, with loss value: 1.3113919505109384, lowest value = 1.2969077928137411
+37
+Early stopping kicked in at:37, with loss value: 1.3040926280202032, lowest value = 1.2969077928137411
+37
+Early stopping kicked in at:37, with loss value: 1.3003557051729222, lowest value = 1.2969077928137411
+38
+Early stopping kicked in at:38, with loss value: 1.3048983474785798, lowest value = 1.2969077928137411
+38
+Early stopping kicked in at:38, with loss value: 1.3055269973433756, lowest value = 1.2969077928137411
+38
+Early stopping kicked in at:38, with loss value: 1.3065779391802366, lowest value = 1.2969077928137411
+38
+Early stopping kicked in at:38, with loss value: 1.310028563619588, lowest value = 1.2969077928137411
+38
+Early stopping kicked in at:38, with loss value: 1.3042672211597495, lowest value = 1.2969077928137411
+39
+Early stopping kicked in at:39, with loss value: 1.3051616480991453, lowest value = 1.2969077928137411
+39
+Early stopping kicked in at:39, with loss value: 1.310769141071311, lowest value = 1.2969077928137411
+39
+Early stopping kicked in at:39, with loss value: 1.3058925151824174, lowest value = 1.2969077928137411
+39
+Early stopping kicked in at:39, with loss value: 1.311675441104271, lowest value = 1.2969077928137411
+39
+Early stopping kicked in at:39, with loss value: 1.3007924044573331, lowest value = 1.2969077928137411
+40
+Early stopping kicked in at:40, with loss value: 1.3004778974419648, lowest value = 1.2969077928137411
+40
+Early stopping kicked in at:40, with loss value: 1.304421925867629, lowest value = 1.2969077928137411
+40
+Early stopping kicked in at:40, with loss value: 1.3076316657147802, lowest value = 1.2969077928137411
+40
+Early stopping kicked in at:40, with loss value: 1.308201109125973, lowest value = 1.2969077928137411
+40
+Early stopping kicked in at:40, with loss value: 1.3108762720047455, lowest value = 1.2969077928137411
+41
+Early stopping kicked in at:41, with loss value: 1.3085601241467701, lowest value = 1.2969077928137411
+41
+Early stopping kicked in at:41, with loss value: 1.297380174804834, lowest value = 1.2969077928137411
+41
+Early stopping kicked in at:41, with loss value: 1.3037152623038992, lowest value = 1.2969077928137411
+41
+Early stopping kicked in at:41, with loss value: 1.3007612488601439, lowest value = 1.2969077928137411
+41
+Early stopping kicked in at:41, with loss value: 1.3104593225981664, lowest value = 1.2969077928137411
+42
+Early stopping kicked in at:42, with loss value: 1.3076735082291422, lowest value = 1.2969077928137411
+42
+Early stopping kicked in at:42, with loss value: 1.2997143971407443, lowest value = 1.2969077928137411
+42
+Early stopping kicked in at:42, with loss value: 1.3022324687510412, lowest value = 1.2969077928137411
+42
+Early stopping kicked in at:42, with loss value: 1.3037425938761698, lowest value = 1.2969077928137411
+42
+Early stopping kicked in at:42, with loss value: 1.3018280872460106, lowest value = 1.2969077928137411
+43
+Early stopping kicked in at:43, with loss value: 1.3156295370640458, lowest value = 1.2969077928137411
+43
+Early stopping kicked in at:43, with loss value: 1.3032837149152035, lowest value = 1.2969077928137411
+43
+Early stopping kicked in at:43, with loss value: 1.29819143969558, lowest value = 1.2969077928137411
+43
+Early stopping kicked in at:43, with loss value: 1.3040988414118322, lowest value = 1.2969077928137411
+43
+Early stopping kicked in at:43, with loss value: 1.2993006508931133, lowest value = 1.2969077928137411
+44
+Early stopping kicked in at:44, with loss value: 1.3036601300890482, lowest value = 1.2969077928137411
+44
+Early stopping kicked in at:44, with loss value: 1.3119101031127234, lowest value = 1.2969077928137411
+44
+Early stopping kicked in at:44, with loss value: 1.3042605894543273, lowest value = 1.2969077928137411
+44
+Early stopping kicked in at:44, with loss value: 1.307370310565386, lowest value = 1.2969077928137411
+44
+Early stopping kicked in at:44, with loss value: 1.3063274526613853, lowest value = 1.2969077928137411
+45
+Early stopping kicked in at:45, with loss value: 1.302827871171887, lowest value = 1.2969077928137411
+45
+Early stopping kicked in at:45, with loss value: 1.3018346070348514, lowest value = 1.2969077928137411
+45
+Early stopping kicked in at:45, with loss value: 1.3037852894357271, lowest value = 1.2969077928137411
+45
+Early stopping kicked in at:45, with loss value: 1.3006449334028551, lowest value = 1.2969077928137411
+45
+Early stopping kicked in at:45, with loss value: 1.3042517091896002, lowest value = 1.2969077928137411
+46
+Early stopping kicked in at:46, with loss value: 1.3067775720475396, lowest value = 1.2969077928137411
+46
+Early stopping kicked in at:46, with loss value: 1.3089146805139686, lowest value = 1.2969077928137411
+46
+Early stopping kicked in at:46, with loss value: 1.3002597004506438, lowest value = 1.2969077928137411
+46
+Early stopping kicked in at:46, with loss value: 1.3114126944101738, lowest value = 1.2969077928137411
+46
+Early stopping kicked in at:46, with loss value: 1.2992269427567016, lowest value = 1.2969077928137411
+47
+Early stopping kicked in at:47, with loss value: 1.3127589239767068, lowest value = 1.2969077928137411
+47
+Early stopping kicked in at:47, with loss value: 1.3163667986672682, lowest value = 1.2969077928137411
+47
+Early stopping kicked in at:47, with loss value: 1.3011838566007814, lowest value = 1.2969077928137411
+47
+Early stopping kicked in at:47, with loss value: 1.3032574204638936, lowest value = 1.2969077928137411
+47
+Early stopping kicked in at:47, with loss value: 1.303792888598834, lowest value = 1.2969077928137411
+48
+Early stopping kicked in at:48, with loss value: 1.3169250562101111, lowest value = 1.2969077928137411
+48
+Early stopping kicked in at:48, with loss value: 1.2970485825203075, lowest value = 1.2969077928137411
+48
+Early stopping kicked in at:48, with loss value: 1.307593939576311, lowest value = 1.2969077928137411
+48
+Early stopping kicked in at:48, with loss value: 1.3024714041664698, lowest value = 1.2969077928137411
+48
+Early stopping kicked in at:48, with loss value: 1.3073329238298903, lowest value = 1.2969077928137411
+49
+Early stopping kicked in at:49, with loss value: 1.3092204822103792, lowest value = 1.2969077928137411
+49
+Early stopping kicked in at:49, with loss value: 1.3014063441934134, lowest value = 1.2969077928137411
+49
+Early stopping kicked in at:49, with loss value: 1.3091137316051933, lowest value = 1.2969077928137411
+49
+Early stopping kicked in at:49, with loss value: 1.3006527879539438, lowest value = 1.2969077928137411
+49
+Early stopping kicked in at:49, with loss value: 1.3045846154599197, lowest value = 1.2969077928137411
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.79285
+Final Validation accuracy: 0.8077
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.797
+Final Validation accuracy: 0.8097
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task3.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+Final Train Cross Entropy Loss: 0.2800335875350492
+Final Validation Cross Entropy Loss: 0.29902402393704086
+Final Train accuracy: 0.9225
+Final Validation accuracy: 0.9157
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+0
+0
+0
+1
+1
+1
+1
+2
+2
+2
+2
+3
+3
+3
+3
+3
+4
+4
+4
+4
+5
+5
+5
+5
+6
+6
+6
+7
+7
+7
+7
+7
+8
+8
+8
+8
+8
+Early stopping kicked in at:8, with loss value: 0.29723920270896337, lowest value = 0.29489116583438274
+0
+0
+1
+1
+1
+1
+1
+2
+2
+2
+2
+Early stopping kicked in at:2, with loss value: 0.2955544878182241, lowest value = 0.29448715374089407
+0
+0
+0
+0
+1
+1
+1
+1
+1
+2
+2
+2
+Early stopping kicked in at:2, with loss value: 0.29548043493664405, lowest value = 0.29381797721194725
+0
+0
+0
+1
+1
+1
+1
+1
+2
+2
+2
+2
+3
+3
+3
+3
+4
+4
+4
+4
+5
+5
+5
+5
+6
+6
+6
+6
+7
+7
+7
+7
+8
+8
+8
+8
+9
+9
+9
+9
+10
+10
+10
+10
+11
+11
+11
+11
+12
+12
+12
+12
+13
+13
+13
+13
+13
+14
+14
+14
+14
+14
+Early stopping kicked in at:14, with loss value: 0.29127675477423826, lowest value = 0.29116819957461665
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.797
+Final Validation accuracy: 0.8097
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+0
+0
+0
+1
+1
+1
+1
+2
+2
+2
+2
+3
+3
+3
+3
+3
+4
+4
+4
+4
+5
+5
+5
+5
+6
+6
+6
+7
+7
+7
+7
+7
+8
+8
+8
+8
+8
+Early stopping kicked in at:8, with loss value: 0.29723920270896337, lowest value = 0.29489116583438274
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.0997
+Final Validation accuracy: 0.098
+0
+0
+1
+1
+1
+1
+1
+2
+2
+2
+2
+Early stopping kicked in at:2, with loss value: 0.2955544878182241, lowest value = 0.29448715374089407
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.0997
+Final Validation accuracy: 0.098
+0
+0
+0
+0
+1
+1
+1
+1
+1
+2
+2
+2
+Early stopping kicked in at:2, with loss value: 0.29548043493664405, lowest value = 0.29381797721194725
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.0997
+Final Validation accuracy: 0.098
+0
+0
+0
+1
+1
+1
+1
+1
+2
+2
+2
+2
+3
+3
+3
+3
+4
+4
+4
+4
+5
+5
+5
+5
+6
+6
+6
+6
+7
+7
+7
+7
+8
+8
+8
+8
+9
+9
+9
+9
+10
+10
+10
+10
+11
+11
+11
+11
+12
+12
+12
+12
+13
+13
+13
+13
+13
+14
+14
+14
+14
+14
+Early stopping kicked in at:14, with loss value: 0.29127675477423826, lowest value = 0.29116819957461665
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.0997
+Final Validation accuracy: 0.098
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+1
+1
+2
+2
+2
+2
+3
+3
+3
+3
+3
+4
+Early stopping kicked in at:4, with loss value: 1.3078605815923021, lowest value = 1.2972148155688163
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.77005
+Final Validation accuracy: 0.7791
+3
+3
+4
+5
+5
+5
+6
+6
+6
+6
+6
+7
+7
+7
+7
+8
+8
+8
+8
+9
+9
+9
+9
+9
+10
+10
+10
+11
+11
+11
+11
+12
+12
+12
+12
+12
+13
+13
+13
+Early stopping kicked in at:13, with loss value: 0.5871195838133393, lowest value = 0.5849029991649305
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.87765
+Final Validation accuracy: 0.8816
+6
+8
+10
+10
+11
+11
+12
+12
+13
+14
+14
+14
+15
+15
+15
+16
+16
+16
+17
+17
+17
+17
+18
+18
+19
+19
+19
+20
+20
+20
+21
+21
+22
+22
+22
+22
+22
+23
+23
+24
+24
+24
+24
+25
+25
+26
+26
+26
+27
+27
+27
+27
+27
+28
+28
+28
+29
+29
+29
+30
+30
+30
+31
+31
+31
+31
+31
+31
+32
+32
+32
+32
+Early stopping kicked in at:32, with loss value: 0.3489131170732208, lowest value = 0.3479740593680022
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.9106
+Final Validation accuracy: 0.9089
+6
+9
+10
+11
+12
+12
+12
+13
+14
+15
+15
+15
+16
+16
+17
+18
+18
+19
+19
+20
+20
+20
+21
+21
+22
+22
+22
+22
+23
+23
+23
+24
+24
+24
+25
+25
+26
+26
+27
+27
+27
+28
+28
+28
+28
+28
+29
+29
+30
+30
+30
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+33
+33
+34
+34
+34
+34
+35
+35
+35
+35
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+38
+38
+39
+39
+Early stopping kicked in at:39, with loss value: 0.30918502384576313, lowest value = 0.3065446929913123
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.9183
+Final Validation accuracy: 0.9119
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+4
+6
+7
+8
+9
+10
+10
+11
+12
+13
+14
+15
+15
+15
+16
+16
+17
+17
+18
+18
+18
+19
+19
+19
+19
+20
+20
+21
+21
+22
+22
+22
+23
+23
+24
+24
+25
+25
+25
+26
+26
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+34
+34
+34
+35
+35
+35
+36
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+39
+39
+39
+39
+39
+40
+40
+40
+40
+41
+41
+41
+42
+42
+42
+42
+42
+43
+43
+43
+44
+44
+44
+45
+45
+45
+46
+46
+46
+46
+47
+47
+47
+47
+47
+48
+48
+48
+48
+49
+49
+49
+49
+1
+1
+2
+2
+2
+2
+2
+3
+3
+3
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+1
+1
+2
+2
+2
+2
+3
+3
+3
+3
+3
+4
+Early stopping kicked in at:4, with loss value: 1.3078605815923021, lowest value = 1.2972148155688163
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.77005
+Final Validation accuracy: 0.7791
+3
+3
+4
+5
+5
+5
+6
+6
+6
+6
+6
+7
+7
+7
+7
+8
+8
+8
+8
+9
+9
+9
+9
+9
+10
+10
+10
+11
+11
+11
+11
+12
+12
+12
+12
+12
+13
+13
+13
+Early stopping kicked in at:13, with loss value: 0.5871195838133393, lowest value = 0.5849029991649305
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.87765
+Final Validation accuracy: 0.8816
+6
+8
+10
+10
+11
+11
+12
+12
+13
+14
+14
+14
+15
+15
+15
+16
+16
+16
+17
+17
+17
+17
+18
+18
+19
+19
+19
+20
+20
+20
+21
+21
+22
+22
+22
+22
+22
+23
+23
+24
+24
+24
+24
+25
+25
+26
+26
+26
+27
+27
+27
+27
+27
+28
+28
+28
+29
+29
+29
+30
+30
+30
+31
+31
+31
+31
+31
+31
+32
+32
+32
+32
+Early stopping kicked in at:32, with loss value: 0.3489131170732208, lowest value = 0.3479740593680022
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.9106
+Final Validation accuracy: 0.9089
+6
+9
+10
+11
+12
+12
+12
+13
+14
+15
+15
+15
+16
+16
+17
+18
+18
+19
+19
+20
+20
+20
+21
+21
+22
+22
+22
+22
+23
+23
+23
+24
+24
+24
+25
+25
+26
+26
+27
+27
+27
+28
+28
+28
+28
+28
+29
+29
+30
+30
+30
+30
+30
+31
+31
+31
+31
+32
+32
+33
+33
+33
+33
+34
+34
+34
+34
+35
+35
+35
+35
+36
+36
+36
+36
+37
+37
+37
+38
+38
+38
+38
+38
+39
+39
+Early stopping kicked in at:39, with loss value: 0.30918502384576313, lowest value = 0.3065446929913123
+Final Train Cross Entropy Loss: 1.315203763805452
+Final Validation Cross Entropy Loss: 1.302087974885025
+Final Train accuracy: 0.9183
+Final Validation accuracy: 0.9119
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+  File "task4.py", line 151
+    plt.
+       ^
+SyntaxError: invalid syntax
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+Early stopping kicked in at:-1, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Early stopping kicked in at:-1, with loss value: 1.30151894097698, lowest value = 1.3000810657915884
+4
+Early stopping kicked in at:-1, with loss value: 1.3029129828948134, lowest value = 1.3000810657915884
+Early stopping kicked in at:-1, with loss value: 1.309797132846297, lowest value = 1.3000810657915884
+Early stopping kicked in at:-1, with loss value: 1.3083009999394424, lowest value = 1.3000810657915884
+Early stopping kicked in at:-1, with loss value: 1.3022636482716319, lowest value = 1.3000810657915884
+Early stopping kicked in at:-1, with loss value: 1.309430693671972, lowest value = 1.3000810657915884
+5
+Early stopping kicked in at:-1, with loss value: 1.305743633723101, lowest value = 1.3000810657915884
+Early stopping kicked in at:-1, with loss value: 1.3107814641771502, lowest value = 1.3000810657915884
+Early stopping kicked in at:-1, with loss value: 1.3005136192011917, lowest value = 1.3000810657915884
+Early stopping kicked in at:-1, with loss value: 1.3063683732787974, lowest value = 1.3000810657915884
+Early stopping kicked in at:-1, with loss value: 1.3051173571157821, lowest value = 1.3000810657915884
+6
+7
+8
+Early stopping kicked in at:-1, with loss value: 1.297420751089229, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3215302075530249, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3092554144753852, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3137367034880154, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.30319435305911, lowest value = 1.2970359563451592
+9
+Early stopping kicked in at:-1, with loss value: 1.3112557745845772, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3091061563176525, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3076907397875068, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.300508751628916, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.2974692167292836, lowest value = 1.2970359563451592
+10
+Early stopping kicked in at:-1, with loss value: 1.3005470834944775, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.304743858337597, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3006292793980812, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3011062024900462, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3054511069507708, lowest value = 1.2970359563451592
+11
+Early stopping kicked in at:-1, with loss value: 1.3031511768201423, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.300032847156137, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3081488515790578, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3106395410998435, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3049738478537314, lowest value = 1.2970359563451592
+12
+Early stopping kicked in at:-1, with loss value: 1.3030730600322535, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.305746540782294, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.2983276098314198, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3037123106815742, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3070770309550843, lowest value = 1.2970359563451592
+13
+Early stopping kicked in at:-1, with loss value: 1.3030251424028332, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3065518582803766, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3044179184649924, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3112838176058832, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.2990465582492399, lowest value = 1.2970359563451592
+14
+Early stopping kicked in at:-1, with loss value: 1.305863197332372, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3039152504669065, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3052743971902092, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3166118515235634, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3117905346490562, lowest value = 1.2970359563451592
+15
+Early stopping kicked in at:-1, with loss value: 1.308837128637747, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.30274427342769, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3092057813598554, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3156992866149186, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3153234828899751, lowest value = 1.2970359563451592
+16
+Early stopping kicked in at:-1, with loss value: 1.308858513774825, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.307157603462408, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3024794518584506, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.304052576780044, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3067831420148546, lowest value = 1.2970359563451592
+17
+Early stopping kicked in at:-1, with loss value: 1.3023228759222496, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3026204573440727, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3068919648923114, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3048249135231036, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.2982526026328995, lowest value = 1.2970359563451592
+18
+Early stopping kicked in at:-1, with loss value: 1.3178804095884178, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3025716435711723, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3110267199965624, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3015801189047929, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3075943216479782, lowest value = 1.2970359563451592
+19
+Early stopping kicked in at:-1, with loss value: 1.3056321942352715, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3163432103431227, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3061792325191381, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.302774010548702, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3011493903219093, lowest value = 1.2970359563451592
+20
+Early stopping kicked in at:-1, with loss value: 1.3005335338815343, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.302793935454199, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3109708567042861, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3003481768960723, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.2983540947666585, lowest value = 1.2970359563451592
+21
+Early stopping kicked in at:-1, with loss value: 1.3037569916072531, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3101053430635687, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3050938278750335, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.303105715141735, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3091690930680822, lowest value = 1.2970359563451592
+22
+Early stopping kicked in at:-1, with loss value: 1.3062983154891692, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3236339584072465, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3122763667380895, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3050120742338882, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.2988961730498736, lowest value = 1.2970359563451592
+23
+Early stopping kicked in at:-1, with loss value: 1.3007570240358959, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3032952788709364, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.303403164313397, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3034277362932645, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.305239187303789, lowest value = 1.2970359563451592
+24
+Early stopping kicked in at:-1, with loss value: 1.301343482234469, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.306044533855463, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3035615367676092, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.305136480969571, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3039537478395244, lowest value = 1.2970359563451592
+25
+Early stopping kicked in at:-1, with loss value: 1.302776884726283, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.2975362439331644, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3078684154218636, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3053422532653693, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.311598692164026, lowest value = 1.2970359563451592
+26
+Early stopping kicked in at:-1, with loss value: 1.3040972313271049, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3044457825376228, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.304326261144632, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3022649178821268, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.301368357316443, lowest value = 1.2970359563451592
+27
+Early stopping kicked in at:-1, with loss value: 1.3106250670149155, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3020453566407475, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3123276820910208, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3044672849248355, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.303223765774534, lowest value = 1.2970359563451592
+28
+Early stopping kicked in at:-1, with loss value: 1.3074494652428175, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3095527732041392, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3172187650932417, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.306322777295498, lowest value = 1.2970359563451592
+Early stopping kicked in at:-1, with loss value: 1.3107517124315657, lowest value = 1.2970359563451592
+29
+30
+31
+Early stopping kicked in at:-1, with loss value: 1.3063131729646664, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.2990146921009627, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.309155650019586, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3022808922109592, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3073099616002548, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3115407306826443, lowest value = 1.2969077928137411
+32
+Early stopping kicked in at:-1, with loss value: 1.3060480250437305, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3087145321109286, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.2989738362006142, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3043237687836262, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3098460549441207, lowest value = 1.2969077928137411
+33
+Early stopping kicked in at:-1, with loss value: 1.3047130539839389, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3036100689222152, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3132389203431913, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3057581768516735, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3128739237637337, lowest value = 1.2969077928137411
+34
+Early stopping kicked in at:-1, with loss value: 1.3140325282113479, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3013593084021369, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3181861847078389, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.307847182991484, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3099132905622668, lowest value = 1.2969077928137411
+35
+Early stopping kicked in at:-1, with loss value: 1.3011794035374058, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3116481828217785, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3011759184900367, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.2992208512341843, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3034968397584736, lowest value = 1.2969077928137411
+36
+Early stopping kicked in at:-1, with loss value: 1.3088817144428475, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.302893593066036, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3057509226616242, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3044905904839001, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.2995906797306407, lowest value = 1.2969077928137411
+37
+Early stopping kicked in at:-1, with loss value: 1.3079662670214922, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3010106339923622, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3113919505109384, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3040926280202032, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3003557051729222, lowest value = 1.2969077928137411
+38
+Early stopping kicked in at:-1, with loss value: 1.3048983474785798, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3055269973433756, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3065779391802366, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.310028563619588, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3042672211597495, lowest value = 1.2969077928137411
+39
+Early stopping kicked in at:-1, with loss value: 1.3051616480991453, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.310769141071311, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3058925151824174, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.311675441104271, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3007924044573331, lowest value = 1.2969077928137411
+40
+Early stopping kicked in at:-1, with loss value: 1.3004778974419648, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.304421925867629, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3076316657147802, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.308201109125973, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3108762720047455, lowest value = 1.2969077928137411
+41
+Early stopping kicked in at:-1, with loss value: 1.3085601241467701, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.297380174804834, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3037152623038992, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3007612488601439, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3104593225981664, lowest value = 1.2969077928137411
+42
+Early stopping kicked in at:-1, with loss value: 1.3076735082291422, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.2997143971407443, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3022324687510412, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3037425938761698, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3018280872460106, lowest value = 1.2969077928137411
+43
+Early stopping kicked in at:-1, with loss value: 1.3156295370640458, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3032837149152035, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.29819143969558, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3040988414118322, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.2993006508931133, lowest value = 1.2969077928137411
+44
+Early stopping kicked in at:-1, with loss value: 1.3036601300890482, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3119101031127234, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3042605894543273, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.307370310565386, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3063274526613853, lowest value = 1.2969077928137411
+45
+Early stopping kicked in at:-1, with loss value: 1.302827871171887, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3018346070348514, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3037852894357271, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3006449334028551, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3042517091896002, lowest value = 1.2969077928137411
+46
+Early stopping kicked in at:-1, with loss value: 1.3067775720475396, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3089146805139686, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3002597004506438, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3114126944101738, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.2992269427567016, lowest value = 1.2969077928137411
+47
+Early stopping kicked in at:-1, with loss value: 1.3127589239767068, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3163667986672682, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3011838566007814, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3032574204638936, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.303792888598834, lowest value = 1.2969077928137411
+48
+Early stopping kicked in at:-1, with loss value: 1.3169250562101111, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.2970485825203075, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.307593939576311, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3024714041664698, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3073329238298903, lowest value = 1.2969077928137411
+49
+Early stopping kicked in at:-1, with loss value: 1.3092204822103792, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3014063441934134, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3091137316051933, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3006527879539438, lowest value = 1.2969077928137411
+Early stopping kicked in at:-1, with loss value: 1.3045846154599197, lowest value = 1.2969077928137411
+0
+1
+2
+3
+4
+5
+6
+7
+Early stopping kicked in at:-1, with loss value: 1.3031403257203729, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3054597473609315, lowest value = 1.296359974968509
+8
+Early stopping kicked in at:-1, with loss value: 1.3131177932562588, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3078985548032163, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3035759169671035, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3050614348693246, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3004461476940818, lowest value = 1.296359974968509
+9
+Early stopping kicked in at:-1, with loss value: 1.297558920793723, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3063155666654862, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3013606208484048, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3056954172304238, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3028020682327146, lowest value = 1.296359974968509
+10
+Early stopping kicked in at:-1, with loss value: 1.301000253299537, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3032723168868938, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3010943311169256, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3021813173955492, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3031522549039587, lowest value = 1.296359974968509
+11
+Early stopping kicked in at:-1, with loss value: 1.3074078156031643, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3074255846970675, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3097567368400582, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.301737366214321, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3106455612510575, lowest value = 1.296359974968509
+12
+Early stopping kicked in at:-1, with loss value: 1.3058966805708592, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3063844428122255, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3009760886522057, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3011359602118266, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3059932852906424, lowest value = 1.296359974968509
+13
+Early stopping kicked in at:-1, with loss value: 1.3058752208667328, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3062671125906116, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3090234430282661, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3094165302952085, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.30268396393418, lowest value = 1.296359974968509
+14
+Early stopping kicked in at:-1, with loss value: 1.3077345323390772, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3016313678915803, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3202433055688434, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3154702048636056, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3068691129614385, lowest value = 1.296359974968509
+15
+Early stopping kicked in at:-1, with loss value: 1.3001700285490567, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3066115503582751, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.303925906089111, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3024973884482525, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3040019811171397, lowest value = 1.296359974968509
+16
+Early stopping kicked in at:-1, with loss value: 1.3035364781822167, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.311712654816899, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3027763294318155, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3065510539679206, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3056774893742185, lowest value = 1.296359974968509
+17
+Early stopping kicked in at:-1, with loss value: 1.3046383497845822, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3055813785954569, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3036302521800367, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3077454186017972, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.2993335602338847, lowest value = 1.296359974968509
+18
+Early stopping kicked in at:-1, with loss value: 1.305466159746767, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.302985631363427, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.306241105148819, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.299352660263547, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.302927798943322, lowest value = 1.296359974968509
+19
+Early stopping kicked in at:-1, with loss value: 1.3061618542410114, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.299311788384198, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3022211879256917, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.311194840092676, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3078604334256672, lowest value = 1.296359974968509
+20
+Early stopping kicked in at:-1, with loss value: 1.3027244993153793, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3065808279172728, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3057846927377152, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3046448582586208, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.312344018278498, lowest value = 1.296359974968509
+21
+Early stopping kicked in at:-1, with loss value: 1.3016474199596653, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3152883746979986, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3021063927899814, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3003255944674064, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.30894456843303, lowest value = 1.296359974968509
+22
+Early stopping kicked in at:-1, with loss value: 1.3036834453032489, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3071587977317627, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3036068980265823, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3014705098970445, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3009675146894017, lowest value = 1.296359974968509
+23
+Early stopping kicked in at:-1, with loss value: 1.3039858352573224, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3070702347543752, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.314755534143171, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3171709914347507, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3012427981715446, lowest value = 1.296359974968509
+24
+Early stopping kicked in at:-1, with loss value: 1.3051334523606488, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3064138028309216, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3057484796486523, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3059039612082546, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.305404494777921, lowest value = 1.296359974968509
+25
+Early stopping kicked in at:-1, with loss value: 1.309628681578093, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3059140235625761, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3003234074359453, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3039703987626161, lowest value = 1.296359974968509
+Early stopping kicked in at:-1, with loss value: 1.3028832142821996, lowest value = 1.296359974968509
+26
+Early stopping kicked in at:-1, with loss value: 1.304237942035887, lowest value = 1.296359974968509
+27
+28
+Early stopping kicked in at:-1, with loss value: 1.3040452496790045, lowest value = 1.2962608274997762
+Early stopping kicked in at:-1, with loss value: 1.3045972798927148, lowest value = 1.2962608274997762
+29
+30
+Early stopping kicked in at:-1, with loss value: 1.3084923131435864, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3039694427071793, lowest value = 1.295601257018769
+31
+Early stopping kicked in at:-1, with loss value: 1.3036453585926362, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.303457359856448, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3093018885007237, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3077459889972058, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3121205098093565, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3024121177850052, lowest value = 1.295601257018769
+32
+Early stopping kicked in at:-1, with loss value: 1.3090641491047417, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3036141099449845, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3039670364069753, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.302011157918983, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3136460994091996, lowest value = 1.295601257018769
+33
+Early stopping kicked in at:-1, with loss value: 1.3016707722566938, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3103137051824874, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3118213432009933, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3048681695834463, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3022053753076557, lowest value = 1.295601257018769
+34
+Early stopping kicked in at:-1, with loss value: 1.3060199237310652, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.2987391132813333, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3063440003500926, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.313498327052687, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3038719476463525, lowest value = 1.295601257018769
+35
+Early stopping kicked in at:-1, with loss value: 1.3030284090214157, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.30127255206012, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.308795649400523, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3069590495711232, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3026043511974437, lowest value = 1.295601257018769
+36
+Early stopping kicked in at:-1, with loss value: 1.3080228430911574, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3115884052585873, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3030908220564936, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.2987021506269516, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3035437845040672, lowest value = 1.295601257018769
+37
+Early stopping kicked in at:-1, with loss value: 1.301829119662972, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3093142107718032, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3163364059655707, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3050646782809068, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3038470637855673, lowest value = 1.295601257018769
+38
+Early stopping kicked in at:-1, with loss value: 1.3072064285583156, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3003612799683508, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3078271894726532, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3062935064691727, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3036831560003108, lowest value = 1.295601257018769
+39
+Early stopping kicked in at:-1, with loss value: 1.301880217252282, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3063009193014254, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3040386105307769, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3055378872707766, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3024101302803737, lowest value = 1.295601257018769
+40
+Early stopping kicked in at:-1, with loss value: 1.303285389213757, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3076368766359527, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3011956470031798, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3077520536920204, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3036576469429972, lowest value = 1.295601257018769
+41
+Early stopping kicked in at:-1, with loss value: 1.3071690277947996, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3039387066083497, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.302088097363358, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3088820140115043, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3046801422026157, lowest value = 1.295601257018769
+42
+Early stopping kicked in at:-1, with loss value: 1.3184272729027893, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3088251560518136, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3011318190637484, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.303686371685718, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3005710184729191, lowest value = 1.295601257018769
+43
+Early stopping kicked in at:-1, with loss value: 1.3013314277151724, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3011115807096227, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3012754070775183, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3017470789409653, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3157474670735292, lowest value = 1.295601257018769
+44
+Early stopping kicked in at:-1, with loss value: 1.3012931628001936, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.303269501577107, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.307607385603495, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3133247070051575, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.30637577056879, lowest value = 1.295601257018769
+45
+Early stopping kicked in at:-1, with loss value: 1.3036763120211892, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3037872916606321, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3076895224372636, lowest value = 1.295601257018769
+Early stopping kicked in at:-1, with loss value: 1.3119842747084776, lowest value = 1.295601257018769
+46
+47
+Early stopping kicked in at:-1, with loss value: 1.3041107920682729, lowest value = 1.2954500387976562
+48
+Early stopping kicked in at:-1, with loss value: 1.307291140581066, lowest value = 1.2954500387976562
+Early stopping kicked in at:-1, with loss value: 1.3017700692572212, lowest value = 1.2954500387976562
+Early stopping kicked in at:-1, with loss value: 1.3038230010791392, lowest value = 1.2954500387976562
+Early stopping kicked in at:-1, with loss value: 1.3035403055023103, lowest value = 1.2954500387976562
+Early stopping kicked in at:-1, with loss value: 1.3068541111077503, lowest value = 1.2954500387976562
+49
+Early stopping kicked in at:-1, with loss value: 1.303454719927631, lowest value = 1.2954500387976562
+Early stopping kicked in at:-1, with loss value: 1.3106820333076665, lowest value = 1.2954500387976562
+Early stopping kicked in at:-1, with loss value: 1.3045523033865913, lowest value = 1.2954500387976562
+Early stopping kicked in at:-1, with loss value: 1.3046493738509577, lowest value = 1.2954500387976562
+Early stopping kicked in at:-1, with loss value: 1.308117634182426, lowest value = 1.2954500387976562
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.78775
+Final Validation accuracy: 0.7997
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Early stopping kicked in at:-1, with loss value: 0.5877099107079261, lowest value = 0.5872920476831996
+11
+Early stopping kicked in at:-1, with loss value: 0.5884620809601377, lowest value = 0.5872920476831996
+Early stopping kicked in at:-1, with loss value: 0.5897670890240339, lowest value = 0.5872920476831996
+12
+13
+14
+Early stopping kicked in at:-1, with loss value: 0.5882221531156214, lowest value = 0.5857846236513592
+15
+Early stopping kicked in at:-1, with loss value: 0.5871946667876247, lowest value = 0.5857846236513592
+Early stopping kicked in at:-1, with loss value: 0.5890979956723488, lowest value = 0.5857846236513592
+Early stopping kicked in at:-1, with loss value: 0.5866177841664818, lowest value = 0.5857846236513592
+Early stopping kicked in at:-1, with loss value: 0.5891012805988707, lowest value = 0.5857846236513592
+Early stopping kicked in at:-1, with loss value: 0.588210160354392, lowest value = 0.5857846236513592
+16
+17
+18
+Early stopping kicked in at:-1, with loss value: 0.5872583442150096, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5874194398532149, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5908709966182217, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5857010648175164, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5909467349880135, lowest value = 0.5852691428443914
+19
+Early stopping kicked in at:-1, with loss value: 0.5865124276208445, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5888994144391017, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5897087215673817, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5858812356978207, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5916216376148767, lowest value = 0.5852691428443914
+20
+Early stopping kicked in at:-1, with loss value: 0.5865376891810161, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5865352321638667, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5873547128387442, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5907394037205107, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5879220159571475, lowest value = 0.5852691428443914
+21
+Early stopping kicked in at:-1, with loss value: 0.5888507271509764, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.587860401957684, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5886687413034369, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5892797747027132, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5940674754821104, lowest value = 0.5852691428443914
+22
+Early stopping kicked in at:-1, with loss value: 0.5879347683137036, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5868086332464463, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5878228751310256, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5877974929117759, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.586560099301379, lowest value = 0.5852691428443914
+23
+Early stopping kicked in at:-1, with loss value: 0.5878577953124596, lowest value = 0.5852691428443914
+Early stopping kicked in at:-1, with loss value: 0.5863860546647265, lowest value = 0.5852691428443914
+24
+25
+Early stopping kicked in at:-1, with loss value: 0.5861032642375352, lowest value = 0.584980635507361
+Early stopping kicked in at:-1, with loss value: 0.5866468767192498, lowest value = 0.584980635507361
+Early stopping kicked in at:-1, with loss value: 0.5886111653714207, lowest value = 0.584980635507361
+26
+Early stopping kicked in at:-1, with loss value: 0.5880589506639852, lowest value = 0.584980635507361
+Early stopping kicked in at:-1, with loss value: 0.5894199122991867, lowest value = 0.584980635507361
+Early stopping kicked in at:-1, with loss value: 0.5886494578483955, lowest value = 0.584980635507361
+Early stopping kicked in at:-1, with loss value: 0.5881034959641578, lowest value = 0.584980635507361
+Early stopping kicked in at:-1, with loss value: 0.5886870608774071, lowest value = 0.584980635507361
+27
+28
+29
+Early stopping kicked in at:-1, with loss value: 0.587203430239815, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5902150207218364, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5867745396709082, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5877184711059611, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5901000164936296, lowest value = 0.584842003132513
+30
+Early stopping kicked in at:-1, with loss value: 0.5867290197340044, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5875986392099609, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5875315287207193, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5877225553261717, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5871826910947434, lowest value = 0.584842003132513
+31
+Early stopping kicked in at:-1, with loss value: 0.5921650853993119, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5899312933382633, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5878798149269004, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5902248318077757, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5911355307875786, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5874225046240592, lowest value = 0.584842003132513
+32
+Early stopping kicked in at:-1, with loss value: 0.5882139161364743, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.588294564274304, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5897947323547029, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.585811663073307, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5888301820002685, lowest value = 0.584842003132513
+33
+Early stopping kicked in at:-1, with loss value: 0.5880062950129352, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5865186913030458, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5869967318964973, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5871216166558852, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5867196158152731, lowest value = 0.584842003132513
+34
+Early stopping kicked in at:-1, with loss value: 0.588670157562861, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5873296605832439, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5905549997921192, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5893695380869063, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5867152620602837, lowest value = 0.584842003132513
+35
+Early stopping kicked in at:-1, with loss value: 0.5871862705619149, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5879621928805827, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5872773710976749, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5854558724703061, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5891330062539516, lowest value = 0.584842003132513
+36
+Early stopping kicked in at:-1, with loss value: 0.5882425669354112, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.587774244625477, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5871831467769346, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5864364800422283, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.587386996236265, lowest value = 0.584842003132513
+37
+Early stopping kicked in at:-1, with loss value: 0.5872187466563941, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5875344628161678, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5857325448684318, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5877071646530104, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.588744117686512, lowest value = 0.584842003132513
+38
+Early stopping kicked in at:-1, with loss value: 0.5915646177384655, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5864854533989755, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5882773961030279, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5885168021135208, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5868054109570489, lowest value = 0.584842003132513
+39
+Early stopping kicked in at:-1, with loss value: 0.5898464002402714, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5867614960479841, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5884815535273982, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5900353117557604, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.587298153807872, lowest value = 0.584842003132513
+40
+Early stopping kicked in at:-1, with loss value: 0.589538866446696, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5852243083206888, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5891570521944587, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5874144818440123, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5868658104756012, lowest value = 0.584842003132513
+41
+Early stopping kicked in at:-1, with loss value: 0.5877680885605853, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5878936182448113, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5881312963031355, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5880081058381387, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5908582315963175, lowest value = 0.584842003132513
+42
+Early stopping kicked in at:-1, with loss value: 0.5865597011608269, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.58833123890128, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5877644500984689, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5861151954498259, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5888050966667067, lowest value = 0.584842003132513
+43
+Early stopping kicked in at:-1, with loss value: 0.5873317813204654, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5890443736913595, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5876933901997251, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5874525065112625, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5863707934358424, lowest value = 0.584842003132513
+44
+Early stopping kicked in at:-1, with loss value: 0.587520717706009, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5905254748822627, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5890007611228236, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5870285319377307, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5875763387580667, lowest value = 0.584842003132513
+45
+Early stopping kicked in at:-1, with loss value: 0.586750066656687, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5864947917616362, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5881161102698141, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5879616644626943, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5857851989938053, lowest value = 0.584842003132513
+46
+Early stopping kicked in at:-1, with loss value: 0.585396534102297, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5894488359621477, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5878177725225582, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5879022424396895, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5914764026395873, lowest value = 0.584842003132513
+47
+Early stopping kicked in at:-1, with loss value: 0.590217424652041, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5925621576009554, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5877611924420316, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5861003808340952, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5873240446016458, lowest value = 0.584842003132513
+48
+Early stopping kicked in at:-1, with loss value: 0.5905577720308028, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5872236492855757, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5895568606195724, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5862295431505385, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5886072521368763, lowest value = 0.584842003132513
+49
+Early stopping kicked in at:-1, with loss value: 0.5874157768879058, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5883008714589516, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5884637990583196, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5857423373142666, lowest value = 0.584842003132513
+Early stopping kicked in at:-1, with loss value: 0.5882006542286056, lowest value = 0.584842003132513
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.876
+Final Validation accuracy: 0.8813
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+Early stopping kicked in at:-1, with loss value: 0.35207279047423473, lowest value = 0.3498797414914166
+Early stopping kicked in at:-1, with loss value: 0.35143569276892495, lowest value = 0.3498797414914166
+29
+Early stopping kicked in at:-1, with loss value: 0.35346018214073205, lowest value = 0.3498797414914166
+Early stopping kicked in at:-1, with loss value: 0.3503159086154753, lowest value = 0.3498797414914166
+Early stopping kicked in at:-1, with loss value: 0.3510930097993965, lowest value = 0.3498797414914166
+Early stopping kicked in at:-1, with loss value: 0.35051649878415236, lowest value = 0.3498797414914166
+Early stopping kicked in at:-1, with loss value: 0.35190241882306694, lowest value = 0.3498797414914166
+30
+31
+32
+33
+34
+35
+36
+37
+Early stopping kicked in at:-1, with loss value: 0.34690554517745703, lowest value = 0.3468704819686435
+Early stopping kicked in at:-1, with loss value: 0.3470066168710428, lowest value = 0.3468704819686435
+38
+Early stopping kicked in at:-1, with loss value: 0.34796897798301796, lowest value = 0.3468704819686435
+Early stopping kicked in at:-1, with loss value: 0.3490909348079371, lowest value = 0.3468704819686435
+Early stopping kicked in at:-1, with loss value: 0.348205961963508, lowest value = 0.3468704819686435
+Early stopping kicked in at:-1, with loss value: 0.34851124491294816, lowest value = 0.3468704819686435
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.9131
+Final Validation accuracy: 0.91
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+Early stopping kicked in at:-1, with loss value: 0.303944414577749, lowest value = 0.3034174403304216
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.9228
+Final Validation accuracy: 0.9154
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+Early stopping kicked in at:-1, with loss value: 0.303944414577749, lowest value = 0.3034174403304216
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.9228
+Final Validation accuracy: 0.9154
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$   C-c C-c
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+Early stopping kicked in at:3, with loss value: 1.302087974885025, lowest value = 1.3000810657915884
+Early stopping kicked in at:3, with loss value: 1.30151894097698, lowest value = 1.3000810657915884
+4
+Early stopping kicked in at:4, with loss value: 1.3029129828948134, lowest value = 1.3000810657915884
+Early stopping kicked in at:4, with loss value: 1.309797132846297, lowest value = 1.3000810657915884
+Early stopping kicked in at:4, with loss value: 1.3083009999394424, lowest value = 1.3000810657915884
+Early stopping kicked in at:4, with loss value: 1.3022636482716319, lowest value = 1.3000810657915884
+Early stopping kicked in at:4, with loss value: 1.309430693671972, lowest value = 1.3000810657915884
+5
+Early stopping kicked in at:5, with loss value: 1.305743633723101, lowest value = 1.3000810657915884
+Early stopping kicked in at:5, with loss value: 1.3107814641771502, lowest value = 1.3000810657915884
+Early stopping kicked in at:5, with loss value: 1.3005136192011917, lowest value = 1.3000810657915884
+Early stopping kicked in at:5, with loss value: 1.3063683732787974, lowest value = 1.3000810657915884
+Early stopping kicked in at:5, with loss value: 1.3051173571157821, lowest value = 1.3000810657915884
+6
+7
+8
+Early stopping kicked in at:8, with loss value: 1.297420751089229, lowest value = 1.2970359563451592
+Early stopping kicked in at:8, with loss value: 1.3215302075530249, lowest value = 1.2970359563451592
+Early stopping kicked in at:8, with loss value: 1.3092554144753852, lowest value = 1.2970359563451592
+Early stopping kicked in at:8, with loss value: 1.3137367034880154, lowest value = 1.2970359563451592
+Early stopping kicked in at:8, with loss value: 1.30319435305911, lowest value = 1.2970359563451592
+9
+Early stopping kicked in at:9, with loss value: 1.3112557745845772, lowest value = 1.2970359563451592
+Early stopping kicked in at:9, with loss value: 1.3091061563176525, lowest value = 1.2970359563451592
+Early stopping kicked in at:9, with loss value: 1.3076907397875068, lowest value = 1.2970359563451592
+Early stopping kicked in at:9, with loss value: 1.300508751628916, lowest value = 1.2970359563451592
+Early stopping kicked in at:9, with loss value: 1.2974692167292836, lowest value = 1.2970359563451592
+10
+Early stopping kicked in at:10, with loss value: 1.3005470834944775, lowest value = 1.2970359563451592
+Early stopping kicked in at:10, with loss value: 1.304743858337597, lowest value = 1.2970359563451592
+Early stopping kicked in at:10, with loss value: 1.3006292793980812, lowest value = 1.2970359563451592
+Early stopping kicked in at:10, with loss value: 1.3011062024900462, lowest value = 1.2970359563451592
+Early stopping kicked in at:10, with loss value: 1.3054511069507708, lowest value = 1.2970359563451592
+11
+Early stopping kicked in at:11, with loss value: 1.3031511768201423, lowest value = 1.2970359563451592
+Early stopping kicked in at:11, with loss value: 1.300032847156137, lowest value = 1.2970359563451592
+Early stopping kicked in at:11, with loss value: 1.3081488515790578, lowest value = 1.2970359563451592
+Early stopping kicked in at:11, with loss value: 1.3106395410998435, lowest value = 1.2970359563451592
+Early stopping kicked in at:11, with loss value: 1.3049738478537314, lowest value = 1.2970359563451592
+12
+Early stopping kicked in at:12, with loss value: 1.3030730600322535, lowest value = 1.2970359563451592
+Early stopping kicked in at:12, with loss value: 1.305746540782294, lowest value = 1.2970359563451592
+Early stopping kicked in at:12, with loss value: 1.2983276098314198, lowest value = 1.2970359563451592
+Early stopping kicked in at:12, with loss value: 1.3037123106815742, lowest value = 1.2970359563451592
+Early stopping kicked in at:12, with loss value: 1.3070770309550843, lowest value = 1.2970359563451592
+13
+Early stopping kicked in at:13, with loss value: 1.3030251424028332, lowest value = 1.2970359563451592
+Early stopping kicked in at:13, with loss value: 1.3065518582803766, lowest value = 1.2970359563451592
+Early stopping kicked in at:13, with loss value: 1.3044179184649924, lowest value = 1.2970359563451592
+Early stopping kicked in at:13, with loss value: 1.3112838176058832, lowest value = 1.2970359563451592
+Early stopping kicked in at:13, with loss value: 1.2990465582492399, lowest value = 1.2970359563451592
+14
+Early stopping kicked in at:14, with loss value: 1.305863197332372, lowest value = 1.2970359563451592
+Early stopping kicked in at:14, with loss value: 1.3039152504669065, lowest value = 1.2970359563451592
+Early stopping kicked in at:14, with loss value: 1.3052743971902092, lowest value = 1.2970359563451592
+Early stopping kicked in at:14, with loss value: 1.3166118515235634, lowest value = 1.2970359563451592
+Early stopping kicked in at:14, with loss value: 1.3117905346490562, lowest value = 1.2970359563451592
+15
+Early stopping kicked in at:15, with loss value: 1.308837128637747, lowest value = 1.2970359563451592
+Early stopping kicked in at:15, with loss value: 1.30274427342769, lowest value = 1.2970359563451592
+Early stopping kicked in at:15, with loss value: 1.3092057813598554, lowest value = 1.2970359563451592
+Early stopping kicked in at:15, with loss value: 1.3156992866149186, lowest value = 1.2970359563451592
+Early stopping kicked in at:15, with loss value: 1.3153234828899751, lowest value = 1.2970359563451592
+16
+Early stopping kicked in at:16, with loss value: 1.308858513774825, lowest value = 1.2970359563451592
+Early stopping kicked in at:16, with loss value: 1.307157603462408, lowest value = 1.2970359563451592
+Early stopping kicked in at:16, with loss value: 1.3024794518584506, lowest value = 1.2970359563451592
+Early stopping kicked in at:16, with loss value: 1.304052576780044, lowest value = 1.2970359563451592
+Early stopping kicked in at:16, with loss value: 1.3067831420148546, lowest value = 1.2970359563451592
+17
+Early stopping kicked in at:17, with loss value: 1.3023228759222496, lowest value = 1.2970359563451592
+Early stopping kicked in at:17, with loss value: 1.3026204573440727, lowest value = 1.2970359563451592
+Early stopping kicked in at:17, with loss value: 1.3068919648923114, lowest value = 1.2970359563451592
+Early stopping kicked in at:17, with loss value: 1.3048249135231036, lowest value = 1.2970359563451592
+Early stopping kicked in at:17, with loss value: 1.2982526026328995, lowest value = 1.2970359563451592
+18
+Early stopping kicked in at:18, with loss value: 1.3178804095884178, lowest value = 1.2970359563451592
+Early stopping kicked in at:18, with loss value: 1.3025716435711723, lowest value = 1.2970359563451592
+Early stopping kicked in at:18, with loss value: 1.3110267199965624, lowest value = 1.2970359563451592
+Early stopping kicked in at:18, with loss value: 1.3015801189047929, lowest value = 1.2970359563451592
+Early stopping kicked in at:18, with loss value: 1.3075943216479782, lowest value = 1.2970359563451592
+19
+Early stopping kicked in at:19, with loss value: 1.3056321942352715, lowest value = 1.2970359563451592
+Early stopping kicked in at:19, with loss value: 1.3163432103431227, lowest value = 1.2970359563451592
+Early stopping kicked in at:19, with loss value: 1.3061792325191381, lowest value = 1.2970359563451592
+Early stopping kicked in at:19, with loss value: 1.302774010548702, lowest value = 1.2970359563451592
+Early stopping kicked in at:19, with loss value: 1.3011493903219093, lowest value = 1.2970359563451592
+20
+Early stopping kicked in at:20, with loss value: 1.3005335338815343, lowest value = 1.2970359563451592
+Early stopping kicked in at:20, with loss value: 1.302793935454199, lowest value = 1.2970359563451592
+Early stopping kicked in at:20, with loss value: 1.3109708567042861, lowest value = 1.2970359563451592
+Early stopping kicked in at:20, with loss value: 1.3003481768960723, lowest value = 1.2970359563451592
+Early stopping kicked in at:20, with loss value: 1.2983540947666585, lowest value = 1.2970359563451592
+21
+Early stopping kicked in at:21, with loss value: 1.3037569916072531, lowest value = 1.2970359563451592
+Early stopping kicked in at:21, with loss value: 1.3101053430635687, lowest value = 1.2970359563451592
+Early stopping kicked in at:21, with loss value: 1.3050938278750335, lowest value = 1.2970359563451592
+Early stopping kicked in at:21, with loss value: 1.303105715141735, lowest value = 1.2970359563451592
+Early stopping kicked in at:21, with loss value: 1.3091690930680822, lowest value = 1.2970359563451592
+22
+Early stopping kicked in at:22, with loss value: 1.3062983154891692, lowest value = 1.2970359563451592
+Early stopping kicked in at:22, with loss value: 1.3236339584072465, lowest value = 1.2970359563451592
+Early stopping kicked in at:22, with loss value: 1.3122763667380895, lowest value = 1.2970359563451592
+Early stopping kicked in at:22, with loss value: 1.3050120742338882, lowest value = 1.2970359563451592
+Early stopping kicked in at:22, with loss value: 1.2988961730498736, lowest value = 1.2970359563451592
+23
+Early stopping kicked in at:23, with loss value: 1.3007570240358959, lowest value = 1.2970359563451592
+Early stopping kicked in at:23, with loss value: 1.3032952788709364, lowest value = 1.2970359563451592
+Early stopping kicked in at:23, with loss value: 1.303403164313397, lowest value = 1.2970359563451592
+Early stopping kicked in at:23, with loss value: 1.3034277362932645, lowest value = 1.2970359563451592
+Early stopping kicked in at:23, with loss value: 1.305239187303789, lowest value = 1.2970359563451592
+24
+Early stopping kicked in at:24, with loss value: 1.301343482234469, lowest value = 1.2970359563451592
+Early stopping kicked in at:24, with loss value: 1.306044533855463, lowest value = 1.2970359563451592
+Early stopping kicked in at:24, with loss value: 1.3035615367676092, lowest value = 1.2970359563451592
+Early stopping kicked in at:24, with loss value: 1.305136480969571, lowest value = 1.2970359563451592
+Early stopping kicked in at:24, with loss value: 1.3039537478395244, lowest value = 1.2970359563451592
+25
+Early stopping kicked in at:25, with loss value: 1.302776884726283, lowest value = 1.2970359563451592
+Early stopping kicked in at:25, with loss value: 1.2975362439331644, lowest value = 1.2970359563451592
+Early stopping kicked in at:25, with loss value: 1.3078684154218636, lowest value = 1.2970359563451592
+Early stopping kicked in at:25, with loss value: 1.3053422532653693, lowest value = 1.2970359563451592
+Early stopping kicked in at:25, with loss value: 1.311598692164026, lowest value = 1.2970359563451592
+26
+Early stopping kicked in at:26, with loss value: 1.3040972313271049, lowest value = 1.2970359563451592
+Early stopping kicked in at:26, with loss value: 1.3044457825376228, lowest value = 1.2970359563451592
+Early stopping kicked in at:26, with loss value: 1.304326261144632, lowest value = 1.2970359563451592
+Early stopping kicked in at:26, with loss value: 1.3022649178821268, lowest value = 1.2970359563451592
+Early stopping kicked in at:26, with loss value: 1.301368357316443, lowest value = 1.2970359563451592
+27
+Early stopping kicked in at:27, with loss value: 1.3106250670149155, lowest value = 1.2970359563451592
+Early stopping kicked in at:27, with loss value: 1.3020453566407475, lowest value = 1.2970359563451592
+Early stopping kicked in at:27, with loss value: 1.3123276820910208, lowest value = 1.2970359563451592
+Early stopping kicked in at:27, with loss value: 1.3044672849248355, lowest value = 1.2970359563451592
+Early stopping kicked in at:27, with loss value: 1.303223765774534, lowest value = 1.2970359563451592
+28
+Early stopping kicked in at:28, with loss value: 1.3074494652428175, lowest value = 1.2970359563451592
+Early stopping kicked in at:28, with loss value: 1.3095527732041392, lowest value = 1.2970359563451592
+Early stopping kicked in at:28, with loss value: 1.3172187650932417, lowest value = 1.2970359563451592
+Early stopping kicked in at:28, with loss value: 1.306322777295498, lowest value = 1.2970359563451592
+Early stopping kicked in at:28, with loss value: 1.3107517124315657, lowest value = 1.2970359563451592
+29
+30
+Early stopping kicked in at:25, with loss value: 1.311598692164026, lowest value = 1.2970359563451592
+26
+Early stopping kicked in at:26, with loss value: 1.3040972313271049, lowest value = 1.2970359563451592
+Early stopping kicked in at:26, with loss value: 1.3044457825376228, lowest value = 1.2970359563451592
+Early stopping kicked in at:26, with loss value: 1.304326261144632, lowest value = 1.2970359563451592
+Early stopping kicked in at:26, with loss value: 1.3022649178821268, lowest value = 1.2970359563451592
+Early stopping kicked in at:26, with loss value: 1.301368357316443, lowest value = 1.2970359563451592
+27
+Early stopping kicked in at:27, with loss value: 1.3106250670149155, lowest value = 1.2970359563451592
+Early stopping kicked in at:27, with loss value: 1.3020453566407475, lowest value = 1.2970359563451592
+Early stopping kicked in at:27, with loss value: 1.3123276820910208, lowest value = 1.2970359563451592
+Early stopping kicked in at:27, with loss value: 1.3044672849248355, lowest value = 1.2970359563451592
+Early stopping kicked in at:27, with loss value: 1.303223765774534, lowest value = 1.2970359563451592
+28
+Early stopping kicked in at:28, with loss value: 1.3074494652428175, lowest value = 1.2970359563451592
+Early stopping kicked in at:28, with loss value: 1.3095527732041392, lowest value = 1.2970359563451592
+Early stopping kicked in at:28, with loss value: 1.3172187650932417, lowest value = 1.2970359563451592
+Early stopping kicked in at:28, with loss value: 1.306322777295498, lowest value = 1.2970359563451592
+Early stopping kicked in at:28, with loss value: 1.3107517124315657, lowest value = 1.2970359563451592
+29
+30
+  C-c C-cTraceback (most recent call last):
+  File "task4.py", line 114, in <module>
+    train_history_reg01, val_history_reg01 = trainer_two.train(num_epochs)
+  File "/home/hallvard/tdt4265/TDT4265-TempCode/assignment1/trainer.py", line 86, in train
+    loss = self.train_step(X_batch, Y_batch)
+  File "task4.py", line 49, in train_step
+    self.model.backward(X_batch, logits, Y_batch)
+  File "/home/hallvard/tdt4265/TDT4265-TempCode/assignment1/task3a.py", line 67, in backward
+    self.grad = np.dot(X.T, delta)/(X.shape[0]) + np.dot(2*self.l2_reg_lambda, self.w)
+KeyboardInterrupt
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ Early stopping kicked in at:25, with loss value: 1.311598692164026, lowest value = 1.2970359563451592
+26
+Early stopping kicked in at:26, with loss value: 1.3040972313271049, lowest value = 1.2970359563451592
+Early stopping kicked in at:26, with loss value: 1.3044457825376228, lowest value = 1.2970359563451592
+Early stopping kicked in at:26, with loss value: 1.304326261144632, lowest value = 1.2970359563451592
+Early stopping kicked in at:26, with loss value: 1.3022649178821268, lowest value = 1.2970359563451592
+Early stopping kicked in at:26, with loss value: 1.301368357316443, lowest value = 1.2970359563451592
+27
+Early stopping kicked in at:27, with loss value: 1.3106250670149155, lowest value = 1.2970359563451592
+Early stopping kicked in at:27, with loss value: 1.3020453566407475, lowest value = 1.2970359563451592
+Early stopping kicked in at:27, with loss value: 1.3123276820910208, lowest value = 1.2970359563451592
+Early stopping kicked in at:27, with loss value: 1.3044672849248355, lowest value = 1.2970359563451592
+Early stopping kicked in at:27, with loss value: 1.303223765774534, lowest value = 1.2970359563451592
+28
+Early stopping kicked in at:28, with loss value: 1.3074494652428175, lowest value = 1.2970359563451592
+Early stopping kicked in at:28, with loss value: 1.3095527732041392, lowest value = 1.2970359563451592
+Early stopping kicked in at:28, with loss value: 1.3172187650932417, lowest value = 1.2970359563451592
+Early stopping kicked in at:28, with loss value: 1.306322777295498, lowest value = 1.2970359563451592
+Early stopping kicked in at:28, with loss value: 1.3107517124315657, lowest value = 1.2970359563451592
+29
+30
+  C-c C-c
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ Early stopping kicked in at:25, with loss value: 1.311598692164026, lowest value = 1.2970359563451592
+26
+Early stopping kicked in at:26, with loss value: 1.3040972313271049, lowest value = 1.2970359563451592
+Early stopping kicked in at:26, with loss value: 1.3044457825376228, lowest value = 1.2970359563451592
+Early stopping kicked in at:26, with loss value: 1.304326261144632, lowest value = 1.2970359563451592
+Early stopping kicked in at:26, with loss value: 1.3022649178821268, lowest value = 1.2970359563451592
+Early stopping kicked in at:26, with loss value: 1.301368357316443, lowest value = 1.2970359563451592
+27
+Early stopping kicked in at:27, with loss value: 1.3106250670149155, lowest value = 1.2970359563451592
+Early stopping kicked in at:27, with loss value: 1.3020453566407475, lowest value = 1.2970359563451592
+Early stopping kicked in at:27, with loss value: 1.3123276820910208, lowest value = 1.2970359563451592
+Early stopping kicked in at:27, with loss value: 1.3044672849248355, lowest value = 1.2970359563451592
+Early stopping kicked in at:27, with loss value: 1.303223765774534, lowest value = 1.2970359563451592
+28
+Early stopping kicked in at:28, with loss value: 1.3074494652428175, lowest value = 1.2970359563451592
+Early stopping kicked in at:28, with loss value: 1.3095527732041392, lowest value = 1.2970359563451592
+Early stopping kicked in at:28, with loss value: 1.3172187650932417, lowest value = 1.2970359563451592
+Early stopping kicked in at:28, with loss value: 1.306322777295498, lowest value = 1.2970359563451592
+Early stopping kicked in at:28, with loss value: 1.3107517124315657, lowest value = 1.2970359563451592
+29
+30
+  C-c C-c
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.78775
+Final Validation accuracy: 0.7997
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.876
+Final Validation accuracy: 0.8813
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.9131
+Final Validation accuracy: 0.91
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.9228
+Final Validation accuracy: 0.9154
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.78775
+Final Validation accuracy: 0.7997
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.876
+Final Validation accuracy: 0.8813
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.9131
+Final Validation accuracy: 0.91
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.9228
+Final Validation accuracy: 0.9154
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+22
+23
+24
+25
+26
+27
+28
+29
+30
+  C-c C-cTraceback (most recent call last):
+  File "task4.py", line 145, in <module>
+    )
+  File "/home/hallvard/tdt4265/TDT4265-TempCode/assignment1/trainer.py", line 92, in train
+    val_loss, accuracy_train, accuracy_val = self.validation_step()
+  File "task4.py", line 72, in validation_step
+    X_val, Y_val, self.model)
+  File "task4.py", line 21, in calculate_accuracy
+    logits = model.forward(X)
+  File "/home/hallvard/tdt4265/TDT4265-TempCode/assignment1/task3a.py", line 44, in forward
+    z = X.dot(self.w)
+KeyboardInterrupt
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 22
+23
+24
+25
+26
+27
+28
+29
+30
+  C-c C-c
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$   C-c C-c
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$   C-c C-c
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 22
+23
+24
+25
+26
+27
+28
+29
+30
+  C-c C-c
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$   C-c C-c
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$   C-c C-z  C-c C-z  C-c C-z22
+23
+24
+25
+26
+27
+28
+29
+30
+22
+23
+24
+25
+26
+27
+28
+29
+30
+  C-c C-z22
+23
+24
+25
+26
+27
+28
+29
+30
+22
+23
+24
+25
+26
+27
+28
+29
+30
+
+C-c: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 23: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 
+24: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 25: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 26: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 27: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 28: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 29: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 30: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 22: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 23: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 24: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 25: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 26: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 27: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 28: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 29: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 30: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ C-c: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 23: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 24: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 25: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 26: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 27: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 28: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 29: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 30: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 22: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 23: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 24: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 25: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 26: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 27: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 28: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ C-c: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 23: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 24: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 25: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 26: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 27: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 28: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 29: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 30: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 22: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 23: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 24: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 25: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 26: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 27: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 28: command not found
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$   C-c C-c
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.78775
+Final Validation accuracy: 0.7997
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.876
+Final Validation accuracy: 0.8813
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.9131
+Final Validation accuracy: 0.91
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.9228
+Final Validation accuracy: 0.9154
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.78775
+Final Validation accuracy: 0.7997
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.876
+Final Validation accuracy: 0.8813
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.9131
+Final Validation accuracy: 0.91
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.9228
+Final Validation accuracy: 0.9154
+[0.3629304693212394, 2.739275343481501, 10.897521591787878, 21.35795539481296]
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.78775
+Final Validation accuracy: 0.7997
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.876
+Final Validation accuracy: 0.8813
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.9131
+Final Validation accuracy: 0.91
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.9228
+Final Validation accuracy: 0.9154
+Traceback (most recent call last):
+  File "task4.py", line 168, in <module>
+    plt.plot(l2_lambdas, weight_norm.reverse())
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/pyplot.py", line 3261, in plot
+    ret = ax.plot(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/__init__.py", line 1717, in inner
+    return func(ax, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/axes/_axes.py", line 1372, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/axes/_base.py", line 404, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/axes/_base.py", line 367, in _plot_args
+    raise ValueError("x and y must not be None")
+ValueError: x and y must not be None
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.78775
+Final Validation accuracy: 0.7997
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.876
+Final Validation accuracy: 0.8813
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.9131
+Final Validation accuracy: 0.91
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.9228
+Final Validation accuracy: 0.9154
+Traceback (most recent call last):
+  File "task4.py", line 169, in <module>
+    lambda_and_weight = sort(zip(l2_lambdas, weight_norm), key = lambda t: t[0])
+NameError: name 'sort' is not defined
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.78775
+Final Validation accuracy: 0.7997
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.876
+Final Validation accuracy: 0.8813
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.9131
+Final Validation accuracy: 0.91
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.3154562298715322
+Final Validation Cross Entropy Loss: 1.3024576881208643
+Final Train accuracy: 0.9228
+Final Validation accuracy: 0.9154
+[0.3629304693212394, 2.739275343481501, 10.897521591787878, 21.35795539481296]
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Traceback (most recent call last):
+  File "task4.py", line 154, in <module>
+    print("Final Train Cross Entropy Loss:", cross_entropy_loss(Y_train, model_two.forward(X_train)))
+NameError: name 'model_two' is not defined
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.318069545593441
+Final Validation Cross Entropy Loss: 1.3061297172707562
+Final Train accuracy: 0.77755
+Final Validation accuracy: 0.787
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.6008979799398914
+Final Validation Cross Entropy Loss: 0.5859605431159138
+Final Train accuracy: 0.8785
+Final Validation accuracy: 0.8829
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.34196002158994265
+Final Validation Cross Entropy Loss: 0.34441876739717026
+Final Train accuracy: 0.9132
+Final Validation accuracy: 0.9107
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.28517373519860123
+Final Validation Cross Entropy Loss: 0.3016765928000619
+Final Train accuracy: 0.92255
+Final Validation accuracy: 0.9145
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.318069545593441
+Final Validation Cross Entropy Loss: 1.3061297172707562
+Final Train accuracy: 0.77755
+Final Validation accuracy: 0.787
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.6008979799398914
+Final Validation Cross Entropy Loss: 0.5859605431159138
+Final Train accuracy: 0.8785
+Final Validation accuracy: 0.8829
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.34196002158994265
+Final Validation Cross Entropy Loss: 0.34441876739717026
+Final Train accuracy: 0.9132
+Final Validation accuracy: 0.9107
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.28517373519860123
+Final Validation Cross Entropy Loss: 0.3016765928000619
+Final Train accuracy: 0.92255
+Final Validation accuracy: 0.9145
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.318069545593441
+Final Validation Cross Entropy Loss: 1.3061297172707562
+Final Train accuracy: 0.77755
+Final Validation accuracy: 0.787
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.6008979799398914
+Final Validation Cross Entropy Loss: 0.5859605431159138
+Final Train accuracy: 0.8785
+Final Validation accuracy: 0.8829
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.34196002158994265
+Final Validation Cross Entropy Loss: 0.34441876739717026
+Final Train accuracy: 0.9132
+Final Validation accuracy: 0.9107
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.28517373519860123
+Final Validation Cross Entropy Loss: 0.3016765928000619
+Final Train accuracy: 0.92255
+Final Validation accuracy: 0.9145
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.318069545593441
+Final Validation Cross Entropy Loss: 1.3061297172707562
+Final Train accuracy: 0.77755
+Final Validation accuracy: 0.787
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.6008979799398914
+Final Validation Cross Entropy Loss: 0.5859605431159138
+Final Train accuracy: 0.8785
+Final Validation accuracy: 0.8829
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.34196002158994265
+Final Validation Cross Entropy Loss: 0.34441876739717026
+Final Train accuracy: 0.9132
+Final Validation accuracy: 0.9107
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.28517373519860123
+Final Validation Cross Entropy Loss: 0.3016765928000619
+Final Train accuracy: 0.92255
+Final Validation accuracy: 0.9145
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.318069545593441
+Final Validation Cross Entropy Loss: 1.3061297172707562
+Final Train accuracy: 0.77755
+Final Validation accuracy: 0.787
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.6008979799398914
+Final Validation Cross Entropy Loss: 0.5859605431159138
+Final Train accuracy: 0.8785
+Final Validation accuracy: 0.8829
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.34196002158994265
+Final Validation Cross Entropy Loss: 0.34441876739717026
+Final Train accuracy: 0.9132
+Final Validation accuracy: 0.9107
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.28517373519860123
+Final Validation Cross Entropy Loss: 0.3016765928000619
+Final Train accuracy: 0.92255
+Final Validation accuracy: 0.9145
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.318069545593441
+Final Validation Cross Entropy Loss: 1.3061297172707562
+Final Train accuracy: 0.77755
+Final Validation accuracy: 0.787
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.6008979799398914
+Final Validation Cross Entropy Loss: 0.5859605431159138
+Final Train accuracy: 0.8785
+Final Validation accuracy: 0.8829
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.34196002158994265
+Final Validation Cross Entropy Loss: 0.34441876739717026
+Final Train accuracy: 0.9132
+Final Validation accuracy: 0.9107
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.28517373519860123
+Final Validation Cross Entropy Loss: 0.3016765928000619
+Final Train accuracy: 0.92255
+Final Validation accuracy: 0.9145
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.318069545593441
+Final Validation Cross Entropy Loss: 1.3061297172707562
+Final Train accuracy: 0.77755
+Final Validation accuracy: 0.787
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.6008979799398914
+Final Validation Cross Entropy Loss: 0.5859605431159138
+Final Train accuracy: 0.8785
+Final Validation accuracy: 0.8829
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.34196002158994265
+Final Validation Cross Entropy Loss: 0.34441876739717026
+Final Train accuracy: 0.9132
+Final Validation accuracy: 0.9107
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.28517373519860123
+Final Validation Cross Entropy Loss: 0.3016765928000619
+Final Train accuracy: 0.92255
+Final Validation accuracy: 0.9145
+Traceback (most recent call last):
+  File "task4.py", line 173, in <module>
+    print(l2_lambdas, weight_norm)
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/pyplot.py", line 3261, in plot
+    ret = ax.plot(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/__init__.py", line 1717, in inner
+    return func(ax, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/axes/_axes.py", line 1372, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/axes/_base.py", line 404, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "/usr/local/lib/python3.6/dist-packages/matplotlib/axes/_base.py", line 367, in _plot_args
+    raise ValueError("x and y must not be None")
+ValueError: x and y must not be None
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 1.318069545593441
+Final Validation Cross Entropy Loss: 1.3061297172707562
+Final Train accuracy: 0.77755
+Final Validation accuracy: 0.787
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.6008979799398914
+Final Validation Cross Entropy Loss: 0.5859605431159138
+Final Train accuracy: 0.8785
+Final Validation accuracy: 0.8829
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.34196002158994265
+Final Validation Cross Entropy Loss: 0.34441876739717026
+Final Train accuracy: 0.9132
+Final Validation accuracy: 0.9107
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Final Train Cross Entropy Loss: 0.28517373519860123
+Final Validation Cross Entropy Loss: 0.3016765928000619
+Final Train accuracy: 0.92255
+Final Validation accuracy: 0.9145
+[1.0, 0.1, 0.01, 0.001] [0.36094704192300425, 2.7423464649287643, 10.90105317299813, 21.358048986300034]
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+  File "task4.py", line 151
+    weight_norm.append(float(np.sum(model.w*model.w)))
+              ^
+SyntaxError: invalid syntax
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ python3 task4.py
+Train shape: X: (20000, 784), Y: (20000, 1)
+Validation shape: X: (10000, 784), Y: (10000, 1)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+0.36094704192300425
+Final Train Cross Entropy Loss: 1.318069545593441
+Final Validation Cross Entropy Loss: 1.3061297172707562
+Final Train accuracy: 0.77755
+Final Validation accuracy: 0.787
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+2.7423464649287643
+Final Train Cross Entropy Loss: 0.6008979799398914
+Final Validation Cross Entropy Loss: 0.5859605431159138
+Final Train accuracy: 0.8785
+Final Validation accuracy: 0.8829
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+10.90105317299813
+Final Train Cross Entropy Loss: 0.34196002158994265
+Final Validation Cross Entropy Loss: 0.34441876739717026
+Final Train accuracy: 0.9132
+Final Validation accuracy: 0.9107
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+21.358048986300034
+Final Train Cross Entropy Loss: 0.28517373519860123
+Final Validation Cross Entropy Loss: 0.3016765928000619
+Final Train accuracy: 0.92255
+Final Validation accuracy: 0.9145
+hallvard@hallvard-MS-7984:~/tdt4265/TDT4265-TempCode/assignment1$ 
