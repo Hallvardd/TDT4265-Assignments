@@ -94,7 +94,7 @@ class BinaryModel:
 
 def gradient_approximation_test(model: BinaryModel, X: np.ndarray, Y: np.ndarray):
     """
-        Numerical approximation for gradients. Should not be edited. 
+        Numerical approximation for gradients. Should not be edited.
         Details about this test is given in the appendix in the assignment.
     """
     w_orig = np.random.normal(loc=0, scale=1/model.w.shape[0]**2, size=model.w.shape)
