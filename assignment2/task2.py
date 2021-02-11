@@ -1,7 +1,7 @@
 import numpy as np
 import utils
 import matplotlib.pyplot as plt
-from task2a import cross_entropy_loss, SoftmaxModel, one_hot_encode, pre_process_images
+from task2a import cross_entropy_loss, SoftmaxModel, one_hot_encode, pre_process_images, calculate_mean_and_std
 from trainer import BaseTrainer
 np.random.seed(0)
 
@@ -15,9 +15,19 @@ def calculate_accuracy(X: np.ndarray, targets: np.ndarray, model: SoftmaxModel) 
     Returns:
         Accuracy (float)
     """
-    # TODO: Implement this function (copy from last assignment)
-    accuracy = 0
+
+    # forward pass
+    logits = model.forward(X)
+
+    # finding the index of the max values for both arrays
+    logits = logits.argmax(axis=1)
+    targets = targets.argmax(axis=1)
+
+    # counting the equal entries and averaging
+    accuracy = np.count_nonzero(np.equal(targets, logits)) / X.shape[0]
+
     return accuracy
+
 
 
 class SoftmaxTrainer(BaseTrainer):
@@ -46,11 +56,11 @@ class SoftmaxTrainer(BaseTrainer):
         Returns:
             loss value (float) on batch
         """
-        # TODO: Implement this function (task 2c)
 
-        loss = 0
-
-        loss = cross_entropy_loss(Y_batch, logits)  # sol
+        logits = self.model.forward(X_batch)
+        self.model.backward(X_batch, logits, Y_batch)
+        self.model.update_weights(self.learning_rate)
+        loss = cross_entropy_loss(Y_batch, logits)
 
         return loss
 
@@ -93,8 +103,9 @@ if __name__ == "__main__":
 
     # Load dataset
     X_train, Y_train, X_val, Y_val = utils.load_full_mnist()
-    X_train = pre_process_images(X_train)
-    X_val = pre_process_images(X_val)
+    mean, std = calculate_mean_and_std(X_train)
+    X_train = pre_process_images(X_train, mean, std)
+    X_val = pre_process_images(X_val, mean, std)
     Y_train = one_hot_encode(Y_train, 10)
     Y_val = one_hot_encode(Y_val, 10)
     # Hyperparameters

@@ -69,11 +69,11 @@ class SoftmaxModel:
         # Initialize the weights
         self.ws = []
 
-        # Array of the outputs of the current layer
+        # Array for the different values used in the calculations
         self.z_arr = [None for i in range(len(self.neurons_per_layer))]
-        self.grads = [None for i in range(len(self.neurons_per_layer))]
         self.a_arr = [None for i in range(len(self.neurons_per_layer))]
         self.delta = [None for i in range(len(self.neurons_per_layer))]
+        self.grads = [None for i in range(len(self.neurons_per_layer))]
 
         prev = self.I
         for size in self.neurons_per_layer:
@@ -93,15 +93,12 @@ class SoftmaxModel:
         Returns:
             y: output of model with shape [batch size, num_outputs]
         """
-        # TODO implement this function (Task 2b)
-        # HINT: For peforming the backward pass, you can save intermediate activations in varialbes in the forward pass.
-        # such as self.hidden_layer_ouput = ...
 
         # first layer
-        self.z_arr[0] = X.dot(self.ws[0])
+        self.z_arr[0] = X @ self.ws[0]
         self.a_arr[0] = self.sigmoid(self.z_arr[0])
         #final layer
-        self.z_arr[1] = self.a_arr[0].dot(self.ws[1])
+        self.z_arr[1] = self.a_arr[0] @ self.ws[1]
         self.a_arr[1] = self.softmax(self.z_arr[1])
 
         # output
@@ -112,30 +109,25 @@ class SoftmaxModel:
     def backward(self, X: np.ndarray, outputs: np.ndarray,
                  targets: np.ndarray) -> None:
         """
-        Computes the gradient and saves it to the variable self.grad
-
         Args:
             X: images of shape [batch size, 785]
             outputs: outputs of model of shape: [batch size, num_outputs]
             targets: labels/targets of each image of shape: [batch size, num_classes]
         """
-        # TODO implement this function (Task 2b)
         assert targets.shape == outputs.shape,\
             f"Output shape: {outputs.shape}, targets: {targets.shape}"
-        # A list of gradients.
-        # For example, self.grads[0] will be the gradient for the first hidden layer
 
         # Softmax layer
         L = -1
 
         self.delta[L] = -(targets - outputs)
-        self.grads[L] = np.dot(self.a_arr[L-1].T, self.delta[L])/(X.shape[0])
+        self.grads[L] = (self.a_arr[L-1].T @ self.delta[L])/(X.shape[0])
 
-        # last layer
+        # first/last hidden layer
         L -= 1
 
-        self.delta[L] = np.dot(self.delta[L+1], self.ws[L+1].T)*self.sigmoid_diff(self.z_arr[L])
-        self.grads[L] = np.dot(X.T, self.delta[L])/X.shape[0]
+        self.delta[L] = (self.delta[L+1] @ self.ws[L+1].T)*self.sigmoid_diff(self.z_arr[L])
+        self.grads[L] = (X.T @ self.delta[L])/X.shape[0]
 
         for grad, w in zip(self.grads, self.ws):
             assert grad.shape == w.shape,\
@@ -150,6 +142,10 @@ class SoftmaxModel:
     def sigmoid_diff(self, z):
         #y_hat(1-y_hat)
         return self.sigmoid(z)*(1-self.sigmoid(z))
+
+    def update_weights(self, learning_rate):
+        self.ws = [w-learning_rate*g for w,g in zip(self.ws, self.grads)]
+
 
     def zero_grad(self) -> None:
         self.grads = [None for i in range(len(self.ws))]
