@@ -19,7 +19,7 @@ def pre_process_images(X: np.ndarray, mean:float, std:float):
 
     #bias trick after normalization
     X = np.insert(X, X.shape[1], 1, axis=1)
-
+    # asd
     return X
 
 
@@ -43,7 +43,7 @@ def cross_entropy_loss(targets: np.ndarray, outputs: np.ndarray):
         f"Targets shape: {targets.shape}, outputs: {outputs.shape}"
 
     x_loss = - np.sum(targets * np.log(outputs))/outputs.shape[0]
-
+    #
     return x_loss
 
 
@@ -68,8 +68,13 @@ class SoftmaxModel:
 
         # Initialize the weights
         self.ws = []
+
         # Array of the outputs of the current layer
-        self.a = []
+        self.z_arr = [None for i in range(len(self.neurons_per_layer))]
+        self.grads = [None for i in range(len(self.neurons_per_layer))]
+        self.a_arr = [None for i in range(len(self.neurons_per_layer))]
+        self.delta = [None for i in range(len(self.neurons_per_layer))]
+
         prev = self.I
         for size in self.neurons_per_layer:
             w_shape = (prev, size)
@@ -78,9 +83,7 @@ class SoftmaxModel:
             self.ws.append(w)
             prev = size
 
-        self.grads = [None for i in range(len(self.ws))]
-        self.z_arr = [None for i in range(len(self.ws))]
-        self.a_arr = [None for i in range(len(self.ws))]
+
 
 
     def forward(self, X: np.ndarray) -> np.ndarray:
@@ -121,14 +124,18 @@ class SoftmaxModel:
             f"Output shape: {outputs.shape}, targets: {targets.shape}"
         # A list of gradients.
         # For example, self.grads[0] will be the gradient for the first hidden layer
-        self.grads = []
 
-        # Softmax
-        delta = -(targets - outputs)
-        self.grads[-1] = np.dot(X.T, delta)/(X.shape[0]) + np.dot(2*self.l2_reg_lambda, self.w)
+        # Softmax layer
+        L = -1
 
-        self.grads[-2] = None
+        self.delta[L] = -(targets - outputs)
+        self.grads[L] = np.dot(self.a_arr[L-1].T, self.delta[L])/(X.shape[0])
 
+        # last layer
+        L -= 1
+
+        self.delta[L] = np.dot(self.delta[L+1], self.ws[L+1].T)*self.sigmoid_diff(self.z_arr[L])
+        self.grads[L] = np.dot(X.T, self.delta[L])/X.shape[0]
 
         for grad, w in zip(self.grads, self.ws):
             assert grad.shape == w.shape,\
@@ -137,16 +144,12 @@ class SoftmaxModel:
     def softmax(self, z:np.ndarray) -> np.ndarray:
         return  np.exp(z)/(np.sum(np.exp(z), axis=1, keepdims=True))
 
-    def softmax_diff(self, z:np.ndaray) -> np.ndarray:
-        return
-
     def sigmoid(self, z:np.ndarray) -> np.ndarray:
         return 1.0/(1.0 + np.exp(-z))
 
     def sigmoid_diff(self, z):
         #y_hat(1-y_hat)
         return self.sigmoid(z)*(1-self.sigmoid(z))
-
 
     def zero_grad(self) -> None:
         self.grads = [None for i in range(len(self.ws))]
