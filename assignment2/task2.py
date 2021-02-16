@@ -28,8 +28,6 @@ def calculate_accuracy(X: np.ndarray, targets: np.ndarray, model: SoftmaxModel) 
 
     return accuracy
 
-
-
 class SoftmaxTrainer(BaseTrainer):
 
     def __init__(
@@ -42,7 +40,7 @@ class SoftmaxTrainer(BaseTrainer):
         self.momentum_gamma = momentum_gamma
         self.use_momentum = use_momentum
         # Init a history of previous gradients to use for implementing momentum
-        self.previous_grads = [np.zeros_like(w) for w in self.model.ws]
+        self.momentum_grads = np.array([np.zeros_like(w) for w in self.model.ws], dtype=object)
 
     def train_step(self, X_batch: np.ndarray, Y_batch: np.ndarray):
         """
@@ -59,8 +57,14 @@ class SoftmaxTrainer(BaseTrainer):
 
         logits = self.model.forward(X_batch)
         self.model.backward(X_batch, logits, Y_batch)
-        self.model.update_weights(self.learning_rate)
         loss = cross_entropy_loss(Y_batch, logits)
+
+        # updating weights
+        if self.use_momentum:
+            self.model.momentum_update_weights(self.learning_rate, self.momentum_grads)
+            self.momentum_grads = self.momentum_gamma*self.model.grads.copy()
+        else:
+            self.model.update_weights(self.learning_rate)
 
         return loss
 
@@ -121,6 +125,8 @@ if __name__ == "__main__":
     )
     train_history, val_history = trainer.train(num_epochs)
 
+    print(trainer.model.ws[0])
+
     print("Final Train Cross Entropy Loss:",
           cross_entropy_loss(Y_train, model.forward(X_train)))
     print("Final Validation Cross Entropy Loss:",
@@ -140,7 +146,7 @@ if __name__ == "__main__":
     plt.ylabel("Cross Entropy Loss - Average")
     # Plot accuracy
     plt.subplot(1, 2, 2)
-    plt.ylim([0.90, .99])
+    plt.ylim([0.90, 1.0])
     utils.plot_loss(train_history["accuracy"], "Training Accuracy")
     utils.plot_loss(val_history["accuracy"], "Validation Accuracy")
     plt.xlabel("Number of Training Steps")

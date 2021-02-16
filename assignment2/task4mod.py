@@ -87,8 +87,9 @@ class SoftmaxModel:
 
         # activation functions
         #hidden layers
-        self.f_hidden, self.f_prime_hidden = (self.imp_sigmoid, self.imp_sigmoid_d)\
-        if self.use_improved_sigmoid else (self.sigmoid, self.sigmoid_d)
+        self.f_hidden = self.imp_sigmoid if self.use_improved_sigmoid else self.sigmoid
+        self.f_prime_hidden = self.imp_sigmoid_d if self.use_improved_sigmoid else self.sigmoid_d
+
         #final layer
         self.f_final = self.softmax
 
@@ -101,15 +102,23 @@ class SoftmaxModel:
         """
 
         # first layer
-        self.z_arr[0] = X @ self.ws[0]
-        self.a_arr[0] = self.f_hidden(self.z_arr[0])
+        L = 0
+        self.z_arr[L] = X @ self.ws[L]
+        self.a_arr[L] = self.f_hidden(self.z_arr[L])
+
+        # rest of the hidden layers
+        L += 1
+        for i in range(L, len(self.neurons_per_layer)-1):
+            self.z_arr[L] = self.a_arr[L-1] @ self.ws[L]
+            self.a_arr[L] = self.f_hidden(self.z_arr[L])
+            L += 1
 
         #final layer
-        self.z_arr[1] = self.a_arr[0] @ self.ws[1]
-        self.a_arr[1] = self.f_final(self.z_arr[1])
+        self.z_arr[L] = self.a_arr[L-1] @ self.ws[L]
+        self.a_arr[L] = self.f_final(self.z_arr[L])
 
         # output
-        y = self.a_arr[1]
+        y = self.a_arr[L]
 
         return y
 
@@ -126,13 +135,17 @@ class SoftmaxModel:
 
         # Softmax layer
         L = -1
-
         self.delta[L] = -(targets - outputs)
         self.grads[L] = (self.a_arr[L-1].T @ self.delta[L])/(X.shape[0])
 
-        # first/last hidden layer
+        # hidden layers
         L -= 1
+        for i in range(-len(self.neurons_per_layer), L):
+            self.delta[L] = (self.delta[L+1] @ self.ws[L+1].T)*self.f_prime_hidden(self.z_arr[L])
+            self.grads[L] = (self.a_arr[L-1].T @ self.delta[L])/X.shape[0]
+            L -= 1
 
+        # first/last hidden layer
         self.delta[L] = (self.delta[L+1] @ self.ws[L+1].T)*self.f_prime_hidden(self.z_arr[L])
         self.grads[L] = (X.T @ self.delta[L])/X.shape[0]
 
@@ -193,65 +206,3 @@ def one_hot_encode(Y: np.ndarray, num_classes: int):
     Y_hot[range(Y.shape[0]), Y.flatten()] = 1
 
     return Y_hot
-
-
-def gradient_approximation_test(
-        model: SoftmaxModel, X: np.ndarray, Y: np.ndarray):
-    """
-        Numerical approximation for gradients. Should not be edited.
-        Details about this test is given in the appendix in the assignment.
-    """
-    epsilon = 1e-3
-    for layer_idx, w in enumerate(model.ws):
-        for i in range(w.shape[0]):
-            for j in range(w.shape[1]):
-                orig = model.ws[layer_idx][i, j].copy()
-                model.ws[layer_idx][i, j] = orig + epsilon
-                logits = model.forward(X)
-                cost1 = cross_entropy_loss(Y, logits)
-                model.ws[layer_idx][i, j] = orig - epsilon
-                logits = model.forward(X)
-                cost2 = cross_entropy_loss(Y, logits)
-                gradient_approximation = (cost1 - cost2) / (2 * epsilon)
-                model.ws[layer_idx][i, j] = orig
-                # Actual gradient
-                logits = model.forward(X)
-                model.backward(X, logits, Y)
-                difference = gradient_approximation - \
-                    model.grads[layer_idx][i, j]
-                assert abs(difference) <= epsilon**2,\
-                    f"Calculated gradient is incorrect. " \
-                    f"Layer IDX = {layer_idx}, i={i}, j={j}.\n" \
-                    f"Approximation: {gradient_approximation}, actual gradient: {model.grads[layer_idx][i, j]}\n" \
-                    f"If this test fails there could be errors in your cross entropy loss function, " \
-                    f"forward function or backward function"
-
-
-if __name__ == "__main__":
-    # Simple test on one-hot encoding
-    Y = np.zeros((1, 1), dtype=int)
-    Y[0, 0] = 3
-    Y = one_hot_encode(Y, 10)
-    assert Y[0, 3] == 1 and Y.sum() == 1, \
-        f"Expected the vector to be [0,0,0,1,0,0,0,0,0,0], but got {Y}"
-
-    X_train, Y_train, *_ = utils.load_full_mnist()
-    mean, std = calculate_mean_and_std(X_train)
-    X_train = pre_process_images(X_train, mean, std)
-    Y_train = one_hot_encode(Y_train, 10)
-    assert X_train.shape[1] == 785,\
-        f"Expected X_train to have 785 elements per image. Shape was: {X_train.shape}"
-
-    neurons_per_layer = [64, 10]
-    use_improved_sigmoid = True
-    use_improved_weight_init = True
-    model = SoftmaxModel(
-        neurons_per_layer, use_improved_sigmoid, use_improved_weight_init)
-
-    # Gradient approximation check for 100 images
-    X_train = X_train[:100]
-    Y_train = Y_train[:100]
-    for layer_idx, w in enumerate(model.ws):
-        model.ws[layer_idx] = np.random.uniform(-1, 1, size=w.shape)
-
-    gradient_approximation_test(model, X_train, Y_train)
