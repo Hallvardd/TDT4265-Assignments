@@ -13,8 +13,8 @@ if __name__ == "__main__":
     momentum_gamma = .9  # Task 3 hyperparameter
     shuffle_data = True
 
-    use_improved_weight_init = False
-    use_improved_sigmoid = False
+    use_improved_weight_init = True
+    use_improved_sigmoid = True
     use_momentum = False
 
     # Load dataset
@@ -37,13 +37,12 @@ if __name__ == "__main__":
     train_history, val_history = trainer.train(num_epochs)
 
     # Example created in assignment text - Comparing with and without shuffling.
-    # YOU CAN DELETE EVERYTHING BELOW!
-    learning_rate = .1
+    learning_rate = .02
     shuffle_data = True
 
     use_improved_weight_init = True
-    use_improved_sigmoid = False
-    use_momentum = False
+    use_improved_sigmoid = True
+    use_momentum = True
 
     model_no_shuffle = SoftmaxModel(
         neurons_per_layer,
@@ -56,22 +55,21 @@ if __name__ == "__main__":
     )
     train_history_no_shuffle, val_history_no_shuffle = trainer_shuffle.train(
         num_epochs)
-    shuffle_data = True
 
     plt.figure(figsize=(20,10))
     plt.subplot(1, 2, 1)
     utils.plot_loss(
-        train_history["loss"], "Task 2 Model", npoints_to_average=10)
+        train_history["loss"], "Task 2 Model - Improved weights & sigmoid", npoints_to_average=10)
     utils.plot_loss(
-        train_history_no_shuffle["loss"], "Task 2 Model - Improved weights", npoints_to_average=10)
+        train_history_no_shuffle["loss"], "Task 2 Model - Improved weights, sigmoid & momentum", npoints_to_average=10)
     plt.ylim([0, .4])
     plt.ylabel("Validation loss")
     plt.legend()
     plt.subplot(1, 2, 2)
     plt.ylim([0.85, 1.0])
-    utils.plot_loss(val_history["accuracy"], "Task 2 Model")
+    utils.plot_loss(val_history["accuracy"], "Task 2 Model - Improved weights & sigmoid")
     utils.plot_loss(
-        val_history_no_shuffle["accuracy"], "Task 2 Model - Improved weights")
+        val_history_no_shuffle["accuracy"], "Task 2 Model - Improved weights, sigmoid & momentum")
     plt.ylabel("Validation Accuracy")
     plt.legend()
-    plt.savefig("task3a_train_loss.png", dpi = 600)
+    plt.savefig("task3c_train_loss.png", dpi = 600)

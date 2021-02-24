@@ -165,11 +165,12 @@ class SoftmaxModel:
 
     def imp_sigmoid(self, z):
         z_d = (2.0/3.0)*z
-        return 1.7159 * np.tanh(z_d)
+        return 1.71590000 * np.tanh(z_d)
 
     def imp_sigmoid_d(self, z):
         z_d = (2.0/3.0)*z
-        return (1.7159 * 8) / (3 * (np.exp(z_d) + np.exp(-z_d))**2)
+        #return 1.7159 * (2.0/3.0)*(1.0/(np.cosh(z_d)**2.0))
+        return 1.7159 * (2.0/3.0) * (1.0 - np.tanh(z_d)**2.0)
 
     # Initialize weights funtions
     def randomize_weigths(self):
@@ -206,3 +207,36 @@ def one_hot_encode(Y: np.ndarray, num_classes: int):
     Y_hot[range(Y.shape[0]), Y.flatten()] = 1
 
     return Y_hot
+
+def gradient_approximation_test(
+        model: SoftmaxModel, X: np.ndarray, Y: np.ndarray):
+    """
+        Numerical approximation for gradients. Should not be edited.
+        Details about this test is given in the appendix in the assignment.
+        --
+        I did edit it thought like the piazza post suggested.
+    """
+    epsilon = 1e-3
+    # Actual gradient
+    logits = model.forward(X)
+    model.backward(X, logits, Y)
+    for layer_idx, w in enumerate(model.ws):
+        for i in range(w.shape[0]):
+            for j in range(w.shape[1]):
+                orig = model.ws[layer_idx][i, j].copy()
+                model.ws[layer_idx][i, j] = orig + epsilon
+                logits = model.forward(X)
+                cost1 = cross_entropy_loss(Y, logits)
+                model.ws[layer_idx][i, j] = orig - epsilon
+                logits = model.forward(X)
+                cost2 = cross_entropy_loss(Y, logits)
+                gradient_approximation = (cost1 - cost2) / (2 * epsilon)
+                model.ws[layer_idx][i, j] = orig
+                difference = gradient_approximation - \
+                    model.grads[layer_idx][i, j]
+                assert abs(difference) <= epsilon**2,\
+                    f"Calculated gradient is incorrect. " \
+                    f"Layer IDX = {layer_idx}, i={i}, j={j}.\n" \
+                    f"Approximation: {gradient_approximation}, actual gradient: {model.grads[layer_idx][i, j]}\n" \
+                    f"If this test fails there could be errors in your cross entropy loss function, " \
+                    f"forward function or backward function"
