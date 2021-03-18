@@ -19,38 +19,68 @@ class ExampleModel(nn.Module):
         """
         super().__init__()
         # TODO: Implement this function (Task  2a)
-        num_filters = 32  # Set number of filters in first conv layer
+        num_filters = 128  # Set number of filters in first conv layer
         self.num_classes = num_classes
         # Define the convolutional layers
+        print(f"Image chanels {image_channels}")
         self.feature_extractor = nn.Sequential(
             nn.Conv2d(
                 in_channels=image_channels,
-                out_channels=num_filters,
-                kernel_size=5,
+                out_channels= 128,
+                kernel_size=3,
                 stride=1,
-                padding=2
+                padding=1
             ),
+            nn.BatchNorm2d(128),
+            nn.ReLU(),
+            nn.Conv2d(
+                in_channels= 128,
+                out_channels= 256,
+                kernel_size=3,
+                stride=1,
+                padding=1
+            ),
+            nn.BatchNorm2d(256),
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=2, stride=2),
             nn.Conv2d(
-                in_channels=num_filters,
-                out_channels=64,
-                kernel_size=5,
+                in_channels=256,
+                out_channels=512,
+                kernel_size=3,
                 stride=1,
-                padding=2
+                padding=1
             ),
+            nn.BatchNorm2d(512),
+            nn.ReLU(),
+            nn.Conv2d(
+                in_channels=512,
+                out_channels=512,
+                kernel_size=3,
+                stride=1,
+                padding=1
+            ),
+            nn.BatchNorm2d(512),
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=2, stride=2),
             nn.Conv2d(
-                in_channels=64,
+                in_channels=512,
+                out_channels=256,
+                kernel_size=3,
+                stride=1,
+                padding=1
+            ),
+            nn.BatchNorm2d(256),
+            nn.ReLU(),
+            nn.Conv2d(
+                in_channels=256,
                 out_channels=128,
-                kernel_size=5,
+                kernel_size=3,
                 stride=1,
-                padding=2
+                padding=1
             ),
+            nn.BatchNorm2d(128),
             nn.ReLU(),
-            nn.MaxPool2d(kernel_size=2, stride=2)
-
+            nn.MaxPool2d(kernel_size=2, stride=2),
         )
         # The output of feature_extractor will be [batch_size, num_filters, 16, 16]
         self.num_output_features = 4*4*128
@@ -60,7 +90,11 @@ class ExampleModel(nn.Module):
         # There is no need for softmax activation function, as this is
         # included with nn.CrossEntropyLoss
         self.classifier = nn.Sequential(
-            nn.Linear(self.num_output_features, 64),
+            nn.BatchNorm1d(self.num_output_features),
+            nn.Linear(self.num_output_features, 128),
+            nn.ReLU(),
+            nn.BatchNorm1d(128),
+            nn.Linear(128, 64),
             nn.ReLU(),
             nn.Linear(64, num_classes),
         )
@@ -88,8 +122,8 @@ def create_plots(trainer: Trainer, name: str):
     # Save plots and show them
     plt.figure(figsize=(20, 8))
     plt.subplot(1, 2, 1)
-    plt.title("Cross Entropy Loss")
-    utils.plot_loss(trainer.train_history["loss"], label="Training loss", npoints_to_average=10)
+    plt.title("Best model loss and accuracy")
+    #utils.plot_loss(trainer.train_history["loss"], label="Training loss", npoints_to_average=10)
     utils.plot_loss(trainer.validation_history["loss"], label="Validation loss")
     plt.legend()
     plt.subplot(1, 2, 2)
@@ -119,7 +153,9 @@ if __name__ == "__main__":
         dataloaders
     )
     trainer.train()
+    trainer.load_best_model()
+    print(f"Final training loss and  accuracy {compute_loss_and_accuracy(trainer.dataloader_train, trainer.model, trainer.loss_criterion)}")
+    print(f"Final validation loss and accuracy {compute_loss_and_accuracy(trainer.dataloader_val, trainer.model, trainer.loss_criterion)}")
+    print(f"Final test loss and accuracy {compute_loss_and_accuracy(trainer.dataloader_test, trainer.model, trainer.loss_criterion)}")
+
     create_plots(trainer, "task2")
-    print(f"Final training accuracy {compute_loss_and_accuracy(trainer.dataloader_train, trainer.model, trainer.loss_criterion)[1]}")
-    print(f"Final validation accuracy {compute_loss_and_accuracy(trainer.dataloader_val, trainer.model, trainer.loss_criterion)[1]}")
-    print(f"Final test accuracy {compute_loss_and_accuracy(trainer.dataloader_test, trainer.model, trainer.loss_criterion)[1]}")

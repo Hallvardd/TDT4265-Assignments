@@ -52,7 +52,8 @@ class Trainer:
                  early_stop_count: int,
                  epochs: int,
                  model: torch.nn.Module,
-                 dataloaders: typing.List[torch.utils.data.DataLoader]):
+                 dataloaders: typing.List[torch.utils.data.DataLoader]
+                 ):
         """
             Initialize our trainer class.
         """
@@ -71,7 +72,8 @@ class Trainer:
 
         # Define our optimizer. SGD = Stochastich Gradient Descent
         self.optimizer = torch.optim.SGD(self.model.parameters(),
-                                         self.learning_rate)
+                                         self.learning_rate,
+                                         weight_decay=0.005)
 
         # Load our dataset
         self.dataloader_train, self.dataloader_val, self.dataloader_test = dataloaders
@@ -92,6 +94,7 @@ class Trainer:
             accuracy=collections.OrderedDict()
         )
         self.checkpoint_dir = pathlib.Path("checkpoints")
+
 
     def validation_step(self):
         """

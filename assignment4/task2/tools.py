@@ -22,7 +22,7 @@ def read_predicted_boxes():
         boxes = np.array(json_file[image_id]["boxes"])
         assert scores.shape[0] == boxes.shape[0]
         assert boxes.shape[1] == 4
-        json_file[image_id]["scores"] = scores 
+        json_file[image_id]["scores"] = scores
         json_file[image_id]["boxes"] = boxes
     return json_file
 

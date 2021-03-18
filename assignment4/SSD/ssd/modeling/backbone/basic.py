@@ -20,6 +20,35 @@ class BasicModel(torch.nn.Module):
         image_channels = cfg.MODEL.BACKBONE.INPUT_CHANNELS
         self.output_feature_shape = cfg.MODEL.PRIORS.FEATURE_MAPS
 
+        self.feature_extractor = nn.Sequential(
+            # first block
+            nn.Conv2d(in_channels=image_channels, out_channels= 64, kernel_size=self.kernel_size, stride=1, padding=self.padding),
+            nn.MaxPool2d(kernel_size=2, stride=2),
+            nn.ReLU(),
+            nn.Conv2d(in_channels=image_channels, out_channels= 64, kernel_size=self.kernel_size, stride=1, padding=self.padding),
+            nn.MaxPool2d(kernel_size=2, stride=2),
+            nn.ReLU(),
+            nn.Conv2d(in_channels=image_channels, out_channels= 64, kernel_size=self.kernel_size, stride=1, padding=self.padding),
+            nn.ReLU(),
+            nn.Conv2d(in_channels=64,out_channels= 128, kernel_size=self.kernel_size,stride=1, padding=self.padding),
+            # second block
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=2, stride=2),
+            nn.BatchNorm2d(128),
+            nn.Conv2d(in_channels=128, out_channels=256, kernel_size=self.kernel_size, stride=1, padding=self.padding),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=2, stride=2),
+            nn.BatchNorm2d(256),
+            nn.Conv2d(
+                in_channels=256,
+                out_channels=128,
+                kernel_size=self.kernel_size,
+                stride=1,
+                padding=self.padding
+            ),
+            nn.ReLU(),
+        )
+
     def forward(self, x):
         """
         The forward functiom should output features with shape:
