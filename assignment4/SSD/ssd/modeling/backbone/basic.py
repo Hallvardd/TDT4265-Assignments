@@ -1,5 +1,29 @@
 import torch
 
+# This network is inspired by the mobilnet.py from
+# https://github.com/lufficc/SSD/blob/master/ssd/modeling/backbone/mobilenet.py
+
+class ConvMaxPool2DReLU(nn.Sequential):
+    def __init__(self, in_channels, out_channels, kernel_size=3, stride=1):
+        padding = (kernel_size-1)/2
+        super(self).__init__(
+            nn.Conv2d(in_channels=image_channels, out_channels= 64, kernel_size=self.kernel_size, stride=1, padding=self.padding),
+            nn.MaxPool2d(kernel_size=kernel_size, stride=2),
+            nn.ReLU(),
+        )
+
+class ReLUConv2dReLUConv2d(nn.Sequential):
+    def __init__(self, in_channels, mid_channels, out_channels):
+        kernel_size = 3
+        padding = (kernel_size-1)/2
+        super(self).__init__(
+            nn.ReLU(),
+            nn.Conv2d(in_channels=in_channels, out_channels= mid_channels, kernel_size=self.kernel_size,stride=1, padding=self.padding),
+            nn.ReLU(),
+            nn.Conv2d(in_channels=mid_channels, out_channels= out_channels, kernel_size=self.kernel_size, stride=1, padding=self.padding),
+        )
+
+
 
 class BasicModel(torch.nn.Module):
     """
@@ -20,34 +44,6 @@ class BasicModel(torch.nn.Module):
         image_channels = cfg.MODEL.BACKBONE.INPUT_CHANNELS
         self.output_feature_shape = cfg.MODEL.PRIORS.FEATURE_MAPS
 
-        self.feature_extractor = nn.Sequential(
-            # first block
-            nn.Conv2d(in_channels=image_channels, out_channels= 64, kernel_size=self.kernel_size, stride=1, padding=self.padding),
-            nn.MaxPool2d(kernel_size=2, stride=2),
-            nn.ReLU(),
-            nn.Conv2d(in_channels=image_channels, out_channels= 64, kernel_size=self.kernel_size, stride=1, padding=self.padding),
-            nn.MaxPool2d(kernel_size=2, stride=2),
-            nn.ReLU(),
-            nn.Conv2d(in_channels=image_channels, out_channels= 64, kernel_size=self.kernel_size, stride=1, padding=self.padding),
-            nn.ReLU(),
-            nn.Conv2d(in_channels=64,out_channels= 128, kernel_size=self.kernel_size,stride=1, padding=self.padding),
-            # second block
-            nn.ReLU(),
-            nn.MaxPool2d(kernel_size=2, stride=2),
-            nn.BatchNorm2d(128),
-            nn.Conv2d(in_channels=128, out_channels=256, kernel_size=self.kernel_size, stride=1, padding=self.padding),
-            nn.ReLU(),
-            nn.MaxPool2d(kernel_size=2, stride=2),
-            nn.BatchNorm2d(256),
-            nn.Conv2d(
-                in_channels=256,
-                out_channels=128,
-                kernel_size=self.kernel_size,
-                stride=1,
-                padding=self.padding
-            ),
-            nn.ReLU(),
-        )
 
     def forward(self, x):
         """
