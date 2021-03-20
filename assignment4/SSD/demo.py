@@ -17,8 +17,8 @@ from ssd.utils.checkpoint import CheckPointer
 def run_demo(cfg, ckpt, score_threshold, images_dir: pathlib.Path, output_dir: pathlib.Path, dataset_type):
     if dataset_type == "voc":
         class_names = VOCDataset.class_names
-    elif dataset_type == "mnist": 
-        class_names = MNISTDetection.class_names 
+    elif dataset_type == "mnist":
+        class_names = MNISTDetection.class_names
     else:
         raise NotImplementedError('Not implemented now.')
 
